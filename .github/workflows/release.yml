@@ -29,7 +29,7 @@ jobs:
                 echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token;
                 gh release view $(basename ${{ github.event.inputs.releaseNoteUrl }}) > temp_change.md
             - name: Tweak changelogs
-              run: >
+              run: |
                 # Remove carriage returns to be able to run the script
                 sed -i 's/\r$//' .github/tweak_changelogs.sh
                 chmod +x .github/tweak_changelogs.sh
