@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.11.3](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/tree/0.11.3) (2025/09/12)
+
+[Full Changelog](https://github.com/Musholic/PathOfBuilding-PoE2/compare/v0.11.2...v0.11.3)
+
+<!-- Release notes generated using configuration in .github/release.yml at dev -->
+
+## What's Changed
+### Other changes
+- Generate the changelog for the beta releases [\#3](https://github.com/Musholic/PathOfBuilding-PoE2/pull/3) ([Musholic](https://github.com/Musholic))
+
+
 ## [v0.11.2](https://github.com/PathOfBuildingCommunity/PathOfBuilding/tree/v0.11.2) (2025/09/02)
 
 [Full Changelog](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/compare/v0.11.1...v0.11.2)
