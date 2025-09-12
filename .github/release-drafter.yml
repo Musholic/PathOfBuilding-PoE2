@@ -1,0 +1,37 @@
+name-template: Beta Release
+tag-template: beta
+category-template: "### $TITLE"
+exclude-labels:
+  - technical
+  - invalid
+  - duplicate
+categories:
+  - title: New to Path of Building
+    labels:
+      - enhancement
+  - title: Fixed Crashes
+    labels:
+      - crash
+  - title: User Interface
+    labels:
+      - user-interface
+  - title: Fixed Calculations
+    labels:
+      - "bug: calculation"
+  - title: Fixed Behaviours
+    labels:
+      - "bug: behaviour"
+  - title: Accuracy Improvements
+    labels:
+      - "bug: accuracy"
+  - title: Fixed Bugs
+    labels:
+      - bug
+  - title: Other changes
+change-template: "* $TITLE by @$AUTHOR in https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/pull/$NUMBER"
+template: |
+  ## What’s Changed
+
+  $CHANGES
+  
+  **Full Changelog**: https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/compare/$PREVIOUS_TAG...beta

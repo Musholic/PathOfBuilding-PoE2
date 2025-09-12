@@ -20,6 +20,24 @@ jobs:
               run: |
                 git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
                 git config --global user.name "github-actions[bot]"
+            # The hash suffix will help identifying if the beta version is up-to-date
+            - name: Add commit hash suffix to manifest version
+              run: |
+                sed -i "s/<Version number=\"\([^\"]*\)\"/<Version number=\"\1-$(git rev-parse --short HEAD)\"/g" manifest.xml
+            # Release drafter will create (or update) a draft release with the generated changelogs based on ../release-drafter.yml
+            - uses: release-drafter/release-drafter@v5
+              env:
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            - name: Generate Release notes
+              run: >
+                echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token;
+                gh release view beta | tee temp_change.md
+            - name: Tweak changelogs
+              run: |
+                # Remove carriage returns to be able to run the script
+                sed -i 's/\r$//' .github/tweak_changelogs.sh
+                chmod +x .github/tweak_changelogs.sh
+                .github/tweak_changelogs.sh beta
             - name: Update manifest.xml
               run: python3 update_manifest.py --quiet --in-place
             - name: Push to beta branch
