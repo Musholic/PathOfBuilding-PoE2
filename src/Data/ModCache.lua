@@ -1,7 +1,6 @@
 local c=...c["(10-15)% increased Energy Shield Recharge Rate"]={nil,"(10-15)% increased Energy Shield Recharge Rate "}
 c["(12-17)% increased Mana Regeneration Rate"]={nil,"(12-17)% increased Mana Regeneration Rate "}
 c["(15-25)% increased Mana Regeneration Rate"]={nil,"(15-25)% increased Mana Regeneration Rate "}
-c["(17-23)% increased maximum Mana"]={nil,"(17-23)% increased maximum Mana "}
 c["(17-23)% increased maximum Mana (15-25)% increased Mana Regeneration Rate"]={nil,"(17-23)% increased maximum Mana (15-25)% increased Mana Regeneration Rate "}
 c["(2-3)% increased Cast Speed"]={nil,"(2-3)% increased Cast Speed "}
 c["(2-3)% increased Movement Speed"]={nil,"(2-3)% increased Movement Speed "}
@@ -2543,7 +2542,7 @@ c["40% increased Melee Damage with Hits at Close Range"]={{[1]={[1]={type="Condi
 c["40% increased Physical Damage"]={{[1]={flags=0,keywordFlags=0,name="PhysicalDamage",type="INC",value=40}},nil}
 c["40% increased Physical Damage while affected by Herald of Blood"]={{[1]={[1]={type="Condition",var="AffectedByHeraldofBlood"},flags=0,keywordFlags=0,name="PhysicalDamage",type="INC",value=40}},nil}
 c["40% increased Poison Duration"]={{[1]={flags=0,keywordFlags=0,name="EnemyPoisonDuration",type="INC",value=40}},nil}
-c["40% increased Presence Area of Effect"]={{[1]={flags=0,keywordFlags=0,name="PresenceArea",type="INC",value=40}},nil}
+c["40% increased Presence Area of Effect"]={{[1]={flags=0,keywordFlags=0,name="PresenceArea",type="INC",value=43}},nil}
 c["40% increased Projectile Damage"]={{[1]={flags=1024,keywordFlags=0,name="Damage",type="INC",value=40}},nil}
 c["40% increased Projectile Damage with Spears while there are no Enemies within 3m"]={{[1]={flags=268436484,keywordFlags=0,name="Damage",type="INC",value=40}},"   while there are no Enemies within 3m "}
 c["40% increased Projectile Stun Buildup"]={{[1]={flags=0,keywordFlags=0,name="ProjectileCount",type="INC",value=40}},"  Stun Buildup "}
