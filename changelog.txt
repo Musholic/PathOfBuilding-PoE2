@@ -1,3 +1,10 @@
+VERSION[0.11.3][2025/09/12]
+<!-- Release notes generated using configuration in .github/release.yml at dev -->
+
+--- Other changes ---
+* Generate the changelog for the beta releases (Musholic)
+
+
 VERSION[0.11.2][2025/09/02]
 
 --- Fixed Crashes ---
