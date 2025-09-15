@@ -825,6 +825,7 @@ function ImportTabClass:ImportItemsAndSkills(charData)
 	end
 	if mainSkillEmpty then
 		self.build.mainSocketGroup = self:GuessMainSocketGroup()
+		self.build.skillsTab.socketGroupList[self.build.mainSocketGroup].includeInFullDPS = true
 	end
 	self.build.itemsTab:PopulateSlots()
 	self.build.itemsTab:AddUndoState()
@@ -1111,17 +1112,22 @@ function ImportTabClass:ImportSocketedItems(item, socketedItems, slotName)
 	end
 end
 
--- Return the index of the group with the most gems
+-- Return the index of the group with the most DPS
 function ImportTabClass:GuessMainSocketGroup()
-	local largestGroupSize = 0
-	local largestGroupIndex = 1
-	for i, socketGroup in ipairs(self.build.skillsTab.socketGroupList) do
-		if #socketGroup.gemList > largestGroupSize then
-			largestGroupSize = #socketGroup.gemList
-			largestGroupIndex = i
-		end
-	end
-	return largestGroupIndex
+	local bestDps = 0
+    local bestSocketGroup = nil
+    for i, socketGroup in pairs(self.build.skillsTab.socketGroupList) do
+        self.build.mainSocketGroup = i
+        socketGroup.includeInFullDPS = true
+        local mainOutput = self.build.calcsTab.calcs.buildOutput(self.build, "MAIN").player.output
+        socketGroup.includeInFullDPS = false
+        local dps = mainOutput.FullDPS
+        if dps > bestDps then
+            bestDps = dps
+            bestSocketGroup = i
+        end
+    end
+    return bestSocketGroup
 end
 
 function HexToChar(x)

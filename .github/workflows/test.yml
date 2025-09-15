@@ -32,3 +32,16 @@ jobs:
       - run: git config --global --add safe.directory $(pwd)
       - name: Check if the generated ModCache is different
         run: git diff --exit-code src/Data/ModCache.lua
+  check_generated_builds:
+    runs-on: ubuntu-latest
+    container: ghcr.io/pathofbuildingcommunity/pathofbuilding-tests:latest
+    steps:
+      - name: Install xmllint and git dependency
+        run: apk add libxml2-utils git
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Generate Builds
+        run: busted --lua=luajit -r generate
+      - run: git config --global --add safe.directory $(pwd)
+      - name: Check if the generated builds are different
+        run: git diff --exit-code spec

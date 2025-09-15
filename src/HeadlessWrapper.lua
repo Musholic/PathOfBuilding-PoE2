@@ -196,8 +196,10 @@ end
 function loadBuildFromJSON(getItemsJSON, getPassiveSkillsJSON)
 	mainObject.main:SetMode("BUILD", false, "")
 	runCallback("OnFrame")
-	local charData = build.importTab:ImportItemsAndSkills(getItemsJSON)
-	build.importTab:ImportPassiveTreeAndJewels(getPassiveSkillsJSON, charData)
-	-- You now have a build without a correct main skill selected, or any configuration options set
+	-- First import passive tree and jewels as we will guess the main socket group when importing items and skills
+	build.importTab:ImportPassiveTreeAndJewels(getPassiveSkillsJSON)
+	build.importTab:ImportItemsAndSkills(getItemsJSON)
+	runCallback("OnFrame")
+	-- You now have a build without any configuration options set
 	-- Good luck!
 end
