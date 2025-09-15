@@ -1,3 +1,9 @@
+VERSION[0.11.2][2025/09/15]
+
+--- Other changes ---
+- Handle multiple PRs and contributors in changelog generation + Simplify CR handling (, ) ([Musholic](https://github.com/Musholic), [LocalIdentity](https://github.com/LocalIdentity))
+
+
 VERSION[0.12.1][2025/09/15]
 
 --- User Interface ---

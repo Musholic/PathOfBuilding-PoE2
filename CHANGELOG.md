@@ -1,5 +1,16 @@
 # Changelog
 
+## [v0.11.2](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/tree/v0.11.2) (2025/09/15)
+
+[Full Changelog](https://github.com/Musholic/PathOfBuilding-PoE2/compare/v0.11.2...v0.12.2)
+
+
+## What's Changed
+### Other changes
+- Handle multiple PRs and contributors in changelog generation + Simplify CR handling ([\#12](https://github.com/Musholic/PathOfBuilding-PoE2/pull/12), [\#11](https://github.com/Musholic/PathOfBuilding-PoE2/pull/11)) ([Musholic](https://github.com/Musholic), [LocalIdentity](https://github.com/LocalIdentity))
+
+
+
 ## [v0.12.1](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/tree/v0.12.1) (2025/09/15)
 
 [Full Changelog](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/compare/v0.12.0...v0.12.1)
