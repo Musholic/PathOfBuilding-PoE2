@@ -3,9 +3,7 @@
 RELEASE_VERSION="$1"
 
 # Remove all CR characters from all changelog files
-sed -i 's/\r//g' temp_change.md
-sed -i 's/\r//g' CHANGELOG.md
-sed -i 's/\r//g' changelog.txt
+sed -i 's/\r//g' temp_change.md CHANGELOG.md changelog.txt
 
 # Delete until and including the first line containing "<!-- Release notes generated"
 sed -i '1,/^<!-- Release notes generated/d' temp_change.md
@@ -47,8 +45,7 @@ echo "VERSION[${RELEASE_VERSION#v}][$(date +'%Y/%m/%d')]" | cat - changelog_temp
 mv changelog_new.txt changelog.txt
 
 # Normalize line endings to CRLF for all output files to ensure consistent checksums with Windows
-sed 's/\r*$/\r/' CHANGELOG.md > CHANGELOG_normalized.md && mv CHANGELOG_normalized.md CHANGELOG.md
-sed 's/\r*$/\r/' changelog.txt > changelog_normalized.txt && mv changelog_normalized.txt changelog.txt
+sed -i 's/\r*$/\r/' CHANGELOG.md changelog.txt
 
 # Clean up temporary files
 rm temp_change.md
