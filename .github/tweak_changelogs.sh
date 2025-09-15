@@ -16,14 +16,15 @@ sed -i -re 's/\*\*Full Changelog\*\*: (.*)/\[Full Changelog\]\(\1\)\n/' temp_cha
 # Delete everything from "## New Contributors" line to the end of file
 sed -i '/## New Contributors/,$d' temp_change.md
 # Convert GitHub changelog entries to markdown format
-# "* description by (@username1, @username2) in #1310, #1311" → "- description #1310, #1311 (username1, username2)"
-sed -i -re 's/^\*(.*)\sby\s\(?@?([^)]*[^) ])\)?\s+in\s+(.*)/- \1 \3 (\2)/' temp_change.md
+# "* description by (@username1, @username2) in #1310, #1311" → "- description #1310, #1311 (@username1, @username2)"
+sed -i -re 's/^\*\s(.*)\sby\s\(?(@[^)]*[^) ])\)?\s+in\s+(.*)/- \1 \3 (\2)/' temp_change.md
 # Convert @usernames to github links
-# "(username1, username2)" → "([username1](https://github.com/username1), [username2](https://github.com/username2))"
+# "(@username1, @username2)" → "([username1](https://github.com/username1), [username2](https://github.com/username2))"
 sed -i -re 's/@([a-zA-Z0-9_-]+)/[\1](https:\/\/github.com\/\1)/g' temp_change.md
-# Convert PR references to links
-# "#1310, #1311" → "[#1310](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/pull/1310), [#1311](...)"
-sed -i -re 's/#([0-9]+)/[#\1](https:\/\/github.com\/PathOfBuildingCommunity\/PathOfBuilding-PoE2\/pull\/\1)/g' temp_change.md
+# Convert full PR URLs to linked format  
+# "https://github.com/repo/pull/1310" → "[\#1310](https://github.com/repo/pull/1310)"
+sed -i -re 's/(https:\/\/[^) ]*\/pull\/([0-9]+))/[\\#\2](\1)/g' temp_change.md
+
 # Username substitutions for preferred display names
 sed -i 's/\[Quotae/\[Quote_a/' temp_change.md
 sed -i 's/\[learn2draw/\[Lexy/' temp_change.md
