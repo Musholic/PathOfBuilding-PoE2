@@ -28,7 +28,9 @@ jobs:
                   gh release delete beta --yes
                 fi
                 # Create new beta draft release with generated notes
-                gh release create beta --title "Beta Release" --draft --generate-notes
+                # Make sure the latest tag is correct, even if the current commit is already tagged
+                LATEST_TAG=$(git describe --tags --abbrev=0)
+                gh release create beta --title "Beta Release" --draft --generate-notes --notes-start-tag "$LATEST_TAG"
                 gh release view beta > temp_change.md
             - name: Tweak changelogs
               id: tweak-changelogs
