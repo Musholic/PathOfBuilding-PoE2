@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
             - name: Checkout
-              uses: actions/checkout@v3
+              uses: actions/checkout@v4
               with:
                 ref: 'dev'
             - name: Generate Release notes
@@ -34,8 +34,13 @@ jobs:
                 sed -i 's/\r$//' .github/tweak_changelogs.sh
                 chmod +x .github/tweak_changelogs.sh
                 .github/tweak_changelogs.sh "v${{ github.event.inputs.releaseVersion }}"
+            - name: Update manifest version
+              run: |
+                sed -i "s/<Version number=\"([^\"]*)\"/<Version number=\"${{ github.event.inputs.releaseVersion }}\"/g" manifest.xml
+            - name: Update manifest.xml
+              run: python3 update_manifest.py --quiet --in-place
             - name: Create Pull Request
-              uses: peter-evans/create-pull-request@v5
+              uses: peter-evans/create-pull-request@v7
               with:
                   draft: true
                   title: Release ${{ github.event.inputs.releaseVersion }}
@@ -45,3 +50,4 @@ jobs:
 
                       Edits will be made as necessary to prepare the codebase for release.
                   commit-message: 'Prepare release ${{ github.event.inputs.releaseVersion }}'
+                  base: master

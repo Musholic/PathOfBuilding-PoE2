@@ -1,0 +1,26 @@
+name: Sync Release to Dev
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  sync-to-dev:
+    # Checks that the push to master was a merge commit from a pull request whose head branch started with 'release-'.
+    if: startsWith(github.event.head_commit.message, 'Merge pull request') && contains(github.event.head_commit.message, '/release-')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Configure bot user
+        run: |
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+
+      - name: Merge master into dev
+        run: |
+          git checkout dev
+          git pull origin dev
+          git merge origin/master --no-ff --no-edit
+          git push origin dev
