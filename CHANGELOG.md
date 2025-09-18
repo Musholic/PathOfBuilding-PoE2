@@ -1,5 +1,16 @@
 # Changelog
 
+## [v0.12.5](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/tree/v0.12.5) (2025/09/18)
+
+[Full Changelog](https://github.com/Musholic/PathOfBuilding-PoE2/compare/v0.11.2...v0.12.5)
+
+
+## What's Changed
+### Other changes
+- Automate release workflow [\#23](https://github.com/Musholic/PathOfBuilding-PoE2/pull/23) ([Musholic](https://github.com/Musholic))
+
+
+
 ## [v0.12.2](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/tree/v0.12.2) (2025/09/16)
 
 [Full Changelog](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/compare/v0.12.1...v0.12.2)
