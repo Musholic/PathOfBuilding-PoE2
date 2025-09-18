@@ -17,7 +17,9 @@ jobs:
             - name: Checkout
               uses: actions/checkout@v4
               with:
-                ref: 'dev'
+                ref: 'master'
+                fetch-depth: 0
+            - run: git reset --hard origin/dev
             - name: Generate Release notes
               if: ${{ github.event.inputs.releaseNoteUrl == '' }}
               run: >
@@ -50,4 +52,3 @@ jobs:
 
                       Edits will be made as necessary to prepare the codebase for release.
                   commit-message: 'Prepare release ${{ github.event.inputs.releaseVersion }}'
-                  base: master
