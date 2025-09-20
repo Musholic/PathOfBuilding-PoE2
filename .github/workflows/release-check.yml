@@ -3,6 +3,7 @@ name: Release Check
 on:
   push:
     branches: [release-*]
+  workflow_dispatch:
 jobs:
   check_manifest:
     runs-on: ubuntu-latest
