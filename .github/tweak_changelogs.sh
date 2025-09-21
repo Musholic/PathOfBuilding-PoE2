@@ -2,7 +2,7 @@
 
 RELEASE_VERSION="$1"
 
-if grep "<!-- Release notes generated" temp_change.md; then
+if grep -q "<!-- Release notes generated" temp_change.md; then
     # Delete until and including the first line containing "<!-- Release notes generated"
     sed -i '1,/^<!-- Release notes generated/d' temp_change.md
 else
@@ -48,13 +48,17 @@ cp temp_change.md changelog_temp.txt
 cat CHANGELOG.md | sed '1d' >> temp_change.md
 # Create new CHANGELOG.md with header containing version and date, followed by processed changes
 printf "# Changelog\n\n## [$RELEASE_VERSION](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/tree/$RELEASE_VERSION) ($(date +'%Y/%m/%d'))\n\n" | cat - temp_change.md > CHANGELOG.md
+
+# Delete until and including the line containing "## What's Changed"
+sed -i "1,/## What's Changed/d" changelog_temp.txt
+
 # Convert changelog entries from markdown link format to simplified "* description (username)" format
 # First remove all PR links
 sed -i -re 's/( \()?\[\\#[0-9]+\]\([^)]*\),? ?\)?//g' changelog_temp.txt
 # Remove markdown link formatting from usernames in parentheses
 sed -i -re 's/\[([^]]*)\]\(https:\/\/github\.com\/[^)]*\)/\1/g' changelog_temp.txt
-# Create new changelog format: add version header, remove lines 2-3, format section headers, remove ## headers with following line, prepend to existing changelog
-echo "VERSION[${RELEASE_VERSION#v}][$(date +'%Y/%m/%d')]" | cat - changelog_temp.txt | sed '2,3d' | sed -re 's/^### (.*)/\n--- \1 ---/' | sed -e '/^##.*/,+1 d' | cat - changelog.txt > changelog_new.txt
+# Create new changelog format: add version header, format section headers, prepend to existing changelog
+echo "VERSION[${RELEASE_VERSION#v}][$(date +'%Y/%m/%d')]" | cat - changelog_temp.txt | sed -re 's/^### (.*)/\n--- \1 ---/' | cat - changelog.txt > changelog_new.txt
 mv changelog_new.txt changelog.txt
 
 # Normalize line endings to CRLF for all output files to ensure consistent checksums with Windows
