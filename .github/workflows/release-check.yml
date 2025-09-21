@@ -16,6 +16,8 @@ jobs:
     runs-on: ubuntu-latest
     if: startsWith(github.head_ref, 'release-')
     steps:
+      - name: Set line endings
+        run: git config --global core.autocrlf true
       - name: Checkout
         uses: actions/checkout@v4
       - name: Update manifest
