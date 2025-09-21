@@ -1,0 +1,2442 @@
+{
+  "character": {
+    "id": "89939fb90e2305038d6bfc662927a97ea7c81161bffe03bfc1213ee8dd97ad9b",
+    "name": "Mushipe",
+    "realm": "poe2",
+    "class": "Ranger1",
+    "league": "Rise of the Abyssal",
+    "level": 33,
+    "experience": 7505077,
+    "equipment": [
+      {
+        "realm": "poe2",
+        "verified": false,
+        "w": 1,
+        "h": 1,
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9CYXNldHlwZXMvQW1iZXJBbXVsZXQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b2698b19ad/AmberAmulet.png",
+        "league": "Rise of the Abyssal",
+        "id": "6d46621ed2d412024cfb53760659f4f80204ec3b43dcb7a1bdfc5c3e77d0a42d",
+        "name": "",
+        "typeLine": "Precise Amber Amulet of Plunder",
+        "baseType": "Amber Amulet",
+        "rarity": "Magic",
+        "ilvl": 8,
+        "identified": true,
+        "properties": [{ "name": "Amulet", "values": [], "displayMode": 0 }],
+        "requirements": [
+          {
+            "name": "Level",
+            "values": [["8", 0]],
+            "displayMode": 0,
+            "type": 62
+          }
+        ],
+        "implicitMods": ["+12 to [Strength|Strength]"],
+        "explicitMods": [
+          "+24 to [Accuracy|Accuracy] Rating",
+          "10% increased [ItemRarity|Rarity of Items] found"
+        ],
+        "frameType": 1,
+        "x": 0,
+        "y": 0,
+        "inventoryId": "Amulet"
+      },
+      {
+        "realm": "poe2",
+        "verified": false,
+        "w": 2,
+        "h": 4,
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9Ud29IYW5kV2VhcG9ucy9Cb3dzL0Jhc2V0eXBlcy9Cb3cwNiIsInciOjIsImgiOjQsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/b0a606586d/Bow06.png",
+        "league": "Rise of the Abyssal",
+        "id": "db5e97e3961db2cd55abbb124d56adaf1a4a127af1ee30d2f6a31f00d527ae6b",
+        "name": "Foe Bane",
+        "typeLine": "Dualstring Bow",
+        "baseType": "Dualstring Bow",
+        "rarity": "Rare",
+        "ilvl": 30,
+        "identified": true,
+        "properties": [
+          { "name": "[Bow]", "values": [], "displayMode": 0 },
+          {
+            "name": "[Physical] Damage",
+            "values": [["29-57", 1]],
+            "displayMode": 0,
+            "type": 9
+          },
+          {
+            "name": "Fire Damage",
+            "values": [["9-18", 4]],
+            "displayMode": 0,
+            "type": 10
+          },
+          {
+            "name": "[Critical|Critical Hit] Chance",
+            "values": [["6.41%", 1]],
+            "displayMode": 0,
+            "type": 12
+          },
+          {
+            "name": "Attacks per Second",
+            "values": [["1.10", 0]],
+            "displayMode": 0,
+            "type": 13
+          }
+        ],
+        "requirements": [
+          {
+            "name": "Level",
+            "values": [["28", 0]],
+            "displayMode": 0,
+            "type": 62
+          },
+          {
+            "name": "[Dexterity|Dex]",
+            "values": [["52", 0]],
+            "displayMode": 1,
+            "type": 64
+          }
+        ],
+        "implicitMods": ["Bow [Attack|Attacks] fire an additional Arrow"],
+        "explicitMods": [
+          "84% increased [Physical] Damage",
+          "Adds 9 to 18 [Fire|Fire] Damage",
+          "+97 to [Accuracy|Accuracy] Rating",
+          "+1.41% to [Critical|Critical Hit] Chance",
+          "+9 to [Dexterity|Dexterity]",
+          "[ManaLeech|Leeches] 4.82% of [Physical|Physical] Damage as Mana"
+        ],
+        "frameType": 2,
+        "x": 0,
+        "y": 0,
+        "inventoryId": "Weapon"
+      },
+      {
+        "realm": "poe2",
+        "verified": false,
+        "w": 2,
+        "h": 2,
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0Jhc2V0eXBlcy9IZWxtZXREZXgwMiIsInciOjIsImgiOjIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/9d0b607edc/HelmetDex02.png",
+        "league": "Rise of the Abyssal",
+        "id": "d71fe18bfc17042dd7c49b3e5fdf1ddecdbea5bb68db31301bf2366c221485a3",
+        "name": "Brimstone Crown",
+        "typeLine": "Felt Cap",
+        "baseType": "Felt Cap",
+        "rarity": "Rare",
+        "ilvl": 12,
+        "identified": true,
+        "properties": [
+          { "name": "Helmet", "values": [], "displayMode": 0 },
+          {
+            "name": "[Evasion|Evasion Rating]",
+            "values": [["83", 1]],
+            "displayMode": 0,
+            "type": 17
+          }
+        ],
+        "requirements": [
+          {
+            "name": "Level",
+            "values": [["10", 0]],
+            "displayMode": 0,
+            "type": 62
+          },
+          {
+            "name": "[Dexterity|Dex]",
+            "values": [["17", 0]],
+            "displayMode": 1,
+            "type": 64
+          }
+        ],
+        "explicitMods": [
+          "+30 to [Evasion] Rating",
+          "7% increased [Evasion|Evasion] Rating",
+          "+7 to maximum Mana",
+          "11% increased [ItemRarity|Rarity of Items] found",
+          "+8 to [Intelligence|Intelligence]"
+        ],
+        "frameType": 2,
+        "x": 0,
+        "y": 0,
+        "inventoryId": "Helm"
+      },
+      {
+        "realm": "poe2",
+        "verified": false,
+        "w": 2,
+        "h": 1,
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvVW5pcXVlcy9LZWVsaGF1bCIsInciOjIsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/4a427d3e49/Keelhaul.png",
+        "league": "Rise of the Abyssal",
+        "id": "5b7ddf58886482911791661992643cc2816a778e2cd1bef2c0a40f21d5af67a3",
+        "name": "Keelhaul",
+        "typeLine": "Linen Belt",
+        "baseType": "Linen Belt",
+        "rarity": "Unique",
+        "ilvl": 5,
+        "identified": true,
+        "properties": [{ "name": "Belt", "values": [], "displayMode": 0 }],
+        "implicitMods": [
+          "21% increased Mana Recovery from [Flask|Flasks]",
+          "Has 1 [Charm] Slot"
+        ],
+        "explicitMods": [
+          "17% increased [Flask] Life Recovery rate",
+          "14% increased [Flask] Mana Recovery rate",
+          "Life [Flask|Flasks] gain 0.25 charges per Second",
+          "Mana [Flask|Flasks] gain 0.25 charges per Second"
+        ],
+        "flavourText": ["Below all living things,\r", "there exists a flow..."],
+        "frameType": 3,
+        "x": 0,
+        "y": 0,
+        "inventoryId": "Belt"
+      },
+      {
+        "realm": "poe2",
+        "verified": false,
+        "w": 1,
+        "h": 1,
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1NhcHBoaXJlUmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/14608c24b1/SapphireRing.png",
+        "league": "Rise of the Abyssal",
+        "id": "64a87f067af09f23eeb212363955cc6266246eaa4197217df3841cc74af81a18",
+        "name": "Vortex Turn",
+        "typeLine": "Sapphire Ring",
+        "baseType": "Sapphire Ring",
+        "rarity": "Rare",
+        "ilvl": 29,
+        "identified": true,
+        "properties": [{ "name": "Ring", "values": [], "displayMode": 0 }],
+        "requirements": [
+          {
+            "name": "Level",
+            "values": [["20", 0]],
+            "displayMode": 0,
+            "type": 62
+          }
+        ],
+        "implicitMods": ["+23% to [Resistances|Cold Resistance]"],
+        "explicitMods": [
+          "Adds 1 to 6 [Lightning] damage to [Attack|Attacks]",
+          "+17 to [Evasion] Rating",
+          "+43 to maximum Mana",
+          "10% increased Cast Speed",
+          "+20% to [Resistances|Fire Resistance]",
+          "+10% to [Resistances|Lightning Resistance]"
+        ],
+        "frameType": 2,
+        "x": 0,
+        "y": 0,
+        "inventoryId": "Ring"
+      },
+      {
+        "realm": "poe2",
+        "verified": false,
+        "w": 1,
+        "h": 2,
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvQmFzZXR5cGVzL0ZsYXNrTGlmZTA1IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiIsImxldmVsIjoxfV0/ec8b3d6d0b/FlaskLife05.png",
+        "league": "Rise of the Abyssal",
+        "id": "94fcd9d3ed102f9b8b12cd6b3890a5a0db3fae40eb35ab0df85f9765086726f5",
+        "name": "",
+        "typeLine": "Simmering Giant Life Flask of the Medic",
+        "baseType": "Giant Life Flask",
+        "rarity": "Magic",
+        "ilvl": 29,
+        "identified": true,
+        "properties": [
+          { "name": "[Flask]", "values": [], "displayMode": 0 },
+          {
+            "name": "Recovers {0} Life over {1} Seconds",
+            "values": [
+              ["340", 0],
+              ["4", 0]
+            ],
+            "displayMode": 3
+          },
+          {
+            "name": "Consumes {0} of {1} Charges on use",
+            "values": [
+              ["10", 0],
+              ["75", 0]
+            ],
+            "displayMode": 3
+          },
+          {
+            "name": "Currently has {0} Charges",
+            "values": [["75", 0]],
+            "displayMode": 3
+          }
+        ],
+        "requirements": [
+          {
+            "name": "Level",
+            "values": [["23", 0]],
+            "displayMode": 0,
+            "type": 62
+          }
+        ],
+        "explicitMods": [
+          "22% of Recovery applied Instantly",
+          "23% Chance to gain a Charge when you Kill an Enemy"
+        ],
+        "descrText": "Right click to drink. Can only hold charges while in belt. Refill at [Wells|Wells] or by killing monsters.",
+        "frameType": 1,
+        "x": 0,
+        "y": 0,
+        "inventoryId": "Flask"
+      },
+      {
+        "realm": "poe2",
+        "verified": false,
+        "w": 1,
+        "h": 1,
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1NhcHBoaXJlUmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/14608c24b1/SapphireRing.png",
+        "league": "Rise of the Abyssal",
+        "id": "13fae02bf6fa6af2b0c9bb1fd5c3b012ead89eb07141e124f42a334f98c61e12",
+        "name": "Brood Loop",
+        "typeLine": "Sapphire Ring",
+        "baseType": "Sapphire Ring",
+        "rarity": "Rare",
+        "ilvl": 16,
+        "identified": true,
+        "properties": [{ "name": "Ring", "values": [], "displayMode": 0 }],
+        "requirements": [
+          {
+            "name": "Level",
+            "values": [["12", 0]],
+            "displayMode": 0,
+            "type": 62
+          }
+        ],
+        "implicitMods": ["+27% to [Resistances|Cold Resistance]"],
+        "explicitMods": [
+          "12% increased [Cold] Damage",
+          "11% increased [ItemRarity|Rarity of Items] found",
+          "+12% to [Resistances|Lightning Resistance]",
+          "Gain 2 Mana per Enemy Killed"
+        ],
+        "frameType": 2,
+        "x": 0,
+        "y": 0,
+        "inventoryId": "Ring2"
+      },
+      {
+        "realm": "poe2",
+        "verified": false,
+        "w": 2,
+        "h": 3,
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVpdmVycy9CYXNldHlwZXMvUXVpdmVyQnJvYWRoZWFkIiwidyI6MiwiaCI6Mywic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/7bd400d550/QuiverBroadhead.png",
+        "league": "Rise of the Abyssal",
+        "id": "622a9df3ec9b18cc3de120e8404baf5cc102bfb84268a6abd224616012ff1d80",
+        "name": "Glyph Hail",
+        "typeLine": "Broadhead Quiver",
+        "baseType": "Broadhead Quiver",
+        "rarity": "Rare",
+        "ilvl": 33,
+        "identified": true,
+        "properties": [{ "name": "[Quiver]", "values": [], "displayMode": 0 }],
+        "requirements": [
+          {
+            "name": "Level",
+            "values": [["20", 0]],
+            "displayMode": 0,
+            "type": 62
+          }
+        ],
+        "implicitMods": [
+          "Adds 1 to 3 [Physical|Physical] Damage to [Attack|Attacks]"
+        ],
+        "explicitMods": [
+          "Adds 4 to 9 [Fire] damage to [Attack|Attacks]",
+          "Adds 3 to 6 [Cold] damage to [Attack|Attacks]",
+          "27% increased Damage with Bow Skills",
+          "15% chance to [Pierce|Pierce] an Enemy"
+        ],
+        "descrText": "Can only be equipped if you are wielding a Bow.",
+        "frameType": 2,
+        "x": 0,
+        "y": 0,
+        "inventoryId": "Offhand"
+      },
+      {
+        "realm": "poe2",
+        "verified": false,
+        "w": 1,
+        "h": 2,
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvQmFzZXR5cGVzL0ZsYXNrTWFuYTA0IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiIsImxldmVsIjoxfV0/e945ac03b2/FlaskMana04.png",
+        "league": "Rise of the Abyssal",
+        "id": "e64aae966dd2e64f94593bc8aa18704182dbf42d9ca58c3adef2b20e3de10467",
+        "name": "",
+        "typeLine": "Opaque Grand Mana Flask of the Wide",
+        "baseType": "Grand Mana Flask",
+        "rarity": "Magic",
+        "ilvl": 16,
+        "identified": true,
+        "properties": [
+          { "name": "[Flask]", "values": [], "displayMode": 0 },
+          {
+            "name": "Recovers {0} Mana over {1} Seconds",
+            "values": [
+              ["155", 1],
+              ["2.50", 0]
+            ],
+            "displayMode": 3
+          },
+          {
+            "name": "Consumes {0} of {1} Charges on use",
+            "values": [
+              ["10", 0],
+              ["97", 1]
+            ],
+            "displayMode": 3
+          },
+          {
+            "name": "Currently has {0} Charges",
+            "values": [["97", 0]],
+            "displayMode": 3
+          }
+        ],
+        "requirements": [
+          {
+            "name": "Level",
+            "values": [["16", 0]],
+            "displayMode": 0,
+            "type": 62
+          }
+        ],
+        "explicitMods": [
+          "41% increased Amount Recovered",
+          "30% increased Charges"
+        ],
+        "descrText": "Right click to drink. Can only hold charges while in belt. Refill at [Wells|Wells] or by killing monsters.",
+        "frameType": 1,
+        "x": 1,
+        "y": 0,
+        "inventoryId": "Flask"
+      },
+      {
+        "realm": "poe2",
+        "verified": false,
+        "w": 1,
+        "h": 1,
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ2hhcm1zL0Jhc2V0eXBlcy9TaWx2ZXJDaGFybSIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/be98ce2ba3/SilverCharm.png",
+        "league": "Rise of the Abyssal",
+        "id": "ae86e4ccbfc0d6a9a5d4be5b24d3892ce6edb764056f056a4af4dee59f2c3443",
+        "name": "",
+        "typeLine": "Investigator's Silver Charm of the Foliage",
+        "baseType": "Silver Charm",
+        "rarity": "Magic",
+        "ilvl": 10,
+        "identified": true,
+        "properties": [
+          { "name": "Charm", "values": [], "displayMode": 0 },
+          {
+            "name": "Lasts {0} Seconds",
+            "values": [["3.50", 1]],
+            "displayMode": 3
+          },
+          {
+            "name": "Consumes {0} of {1} Charges on use",
+            "values": [
+              ["20", 0],
+              ["40", 0]
+            ],
+            "displayMode": 3
+          },
+          {
+            "name": "Currently has {0} Charges",
+            "values": [["40", 0]],
+            "displayMode": 3
+          }
+        ],
+        "requirements": [
+          {
+            "name": "Level",
+            "values": [["10", 0]],
+            "displayMode": 0,
+            "type": 62
+          }
+        ],
+        "utilityMods": ["Your speed is unaffected by [Slow|Slows]"],
+        "implicitMods": ["Used when you are affected by a [Slow]"],
+        "explicitMods": [
+          "Gains 0.15 Charges per Second",
+          "18% increased Duration"
+        ],
+        "descrText": "Used automatically when condition is met. Can only hold charges while in belt. Refill at [Wells|Wells] or by killing monsters.",
+        "frameType": 1,
+        "x": 2,
+        "y": 0,
+        "inventoryId": "Flask"
+      },
+      {
+        "realm": "poe2",
+        "verified": false,
+        "w": 2,
+        "h": 2,
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc0ludDA0IiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/8882887a8e/GlovesInt04.png",
+        "league": "Rise of the Abyssal",
+        "id": "b1ddc1691d0a9baf4029dbffdc36027ec055477c6a52166e256b8e9335581c87",
+        "name": "Rapture Knuckle",
+        "typeLine": "Jewelled Gloves",
+        "baseType": "Jewelled Gloves",
+        "rarity": "Rare",
+        "ilvl": 34,
+        "identified": true,
+        "properties": [
+          { "name": "Gloves", "values": [], "displayMode": 0 },
+          {
+            "name": "[EnergyShield|Energy Shield]",
+            "values": [["35", 1]],
+            "displayMode": 0,
+            "type": 18
+          }
+        ],
+        "requirements": [
+          {
+            "name": "Level",
+            "values": [["26", 0]],
+            "displayMode": 0,
+            "type": 62
+          },
+          {
+            "name": "[Intelligence|Int]",
+            "values": [["34", 0]],
+            "displayMode": 1,
+            "type": 65
+          }
+        ],
+        "explicitMods": [
+          "+13 to maximum [EnergyShield|Energy Shield]",
+          "Adds 7 to 12 [Cold] damage to [Attack|Attacks]",
+          "+26 to maximum Mana",
+          "8% increased [ItemRarity|Rarity of Items] found",
+          "[LifeLeech|Leech] 5.7% of [Physical] [Attack] Damage as Life",
+          "Gain 9 Life per Enemy Killed"
+        ],
+        "frameType": 2,
+        "x": 0,
+        "y": 0,
+        "inventoryId": "Gloves"
+      },
+      {
+        "realm": "poe2",
+        "verified": false,
+        "w": 2,
+        "h": 3,
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9CYXNldHlwZXMvQm9keURleEludDA1IiwidyI6MiwiaCI6Mywic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/9875eb2d08/BodyDexInt05.png",
+        "league": "Rise of the Abyssal",
+        "id": "dee32e7461541810a75f74d9e34d95df33bd8dc7831adeb0d504d2541dd9c6dc",
+        "name": "Foe Coat",
+        "typeLine": "Anchorite Garb",
+        "baseType": "Anchorite Garb",
+        "rarity": "Rare",
+        "ilvl": 35,
+        "identified": true,
+        "properties": [
+          { "name": "Body Armour", "values": [], "displayMode": 0 },
+          {
+            "name": "[Evasion|Evasion Rating]",
+            "values": [["146", 1]],
+            "displayMode": 0,
+            "type": 17
+          },
+          {
+            "name": "[EnergyShield|Energy Shield]",
+            "values": [["62", 1]],
+            "displayMode": 0,
+            "type": 18
+          }
+        ],
+        "requirements": [
+          {
+            "name": "Level",
+            "values": [["33", 0]],
+            "displayMode": 0,
+            "type": 62
+          },
+          {
+            "name": "[Dexterity|Dex]",
+            "values": [["31", 0]],
+            "displayMode": 1,
+            "type": 64
+          },
+          {
+            "name": "[Intelligence|Int]",
+            "values": [["31", 0]],
+            "displayMode": 1,
+            "type": 65
+          }
+        ],
+        "explicitMods": [
+          "45% increased [Evasion] and [EnergyShield|Energy Shield]",
+          "+7 to maximum Life",
+          "1.5 Life Regeneration per second",
+          "+15 to [StunThreshold|Stun Threshold]"
+        ],
+        "frameType": 2,
+        "x": 0,
+        "y": 0,
+        "inventoryId": "BodyArmour"
+      },
+      {
+        "realm": "poe2",
+        "verified": false,
+        "w": 2,
+        "h": 2,
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9CYXNldHlwZXMvQm9vdHNEZXgwMyIsInciOjIsImgiOjIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/96d222eebc/BootsDex03.png",
+        "league": "Rise of the Abyssal",
+        "id": "99ec0a01c0c375d433e27541f7fc611c352ec223e90524e70940db1dc0aad44e",
+        "name": "Kraken League",
+        "typeLine": "Embossed Boots",
+        "baseType": "Embossed Boots",
+        "rarity": "Rare",
+        "ilvl": 19,
+        "identified": true,
+        "properties": [
+          { "name": "Boots", "values": [], "displayMode": 0 },
+          {
+            "name": "[Evasion|Evasion Rating]",
+            "values": [["63", 1]],
+            "displayMode": 0,
+            "type": 17
+          }
+        ],
+        "requirements": [
+          {
+            "name": "Level",
+            "values": [["16", 0]],
+            "displayMode": 0,
+            "type": 62
+          },
+          {
+            "name": "[Dexterity|Dex]",
+            "values": [["23", 0]],
+            "displayMode": 1,
+            "type": 64
+          }
+        ],
+        "explicitMods": [
+          "15% increased Movement Speed",
+          "+13 to [Evasion] Rating",
+          "+23 to maximum Life",
+          "7% increased [ItemRarity|Rarity of Items] found",
+          "+10% to [Resistances|Fire Resistance]",
+          "+6 to [StunThreshold|Stun Threshold]"
+        ],
+        "frameType": 2,
+        "x": 0,
+        "y": 0,
+        "inventoryId": "Boots"
+      },
+      {
+        "realm": "poe2",
+        "verified": false,
+        "w": 1,
+        "h": 1,
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ2hhcm1zL0Jhc2V0eXBlcy9SdWJ5Q2hhcm0iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b8ef302409/RubyCharm.png",
+        "league": "Rise of the Abyssal",
+        "id": "5394371956e1e8e26b8fea08a11f05ee959be9e5598c0170bca8f6e1cdbe6099",
+        "name": "",
+        "typeLine": "Sunny Ruby Charm of the Wide",
+        "baseType": "Ruby Charm",
+        "rarity": "Magic",
+        "ilvl": 11,
+        "identified": true,
+        "properties": [
+          { "name": "Charm", "values": [], "displayMode": 0 },
+          {
+            "name": "Lasts {0} Seconds",
+            "values": [["4", 0]],
+            "displayMode": 3
+          },
+          {
+            "name": "Consumes {0} of {1} Charges on use",
+            "values": [
+              ["20", 0],
+              ["49", 1]
+            ],
+            "displayMode": 3
+          },
+          {
+            "name": "Currently has {0} Charges",
+            "values": [["49", 0]],
+            "displayMode": 3
+          }
+        ],
+        "requirements": [
+          {
+            "name": "Level",
+            "values": [["8", 0]],
+            "displayMode": 0,
+            "type": 62
+          }
+        ],
+        "utilityMods": ["+25% to [Resistances|Fire Resistance]"],
+        "implicitMods": [
+          "Used when you take [Fire] damage from a [HitDamage|Hit]"
+        ],
+        "explicitMods": ["Also grants 48 [Guard]", "24% increased Charges"],
+        "descrText": "Used automatically when condition is met. Can only hold charges while in belt. Refill at [Wells|Wells] or by killing monsters.",
+        "frameType": 1,
+        "x": 3,
+        "y": 0,
+        "inventoryId": "Flask"
+      }
+    ],
+    "skills": [
+      {
+        "realm": "poe2",
+        "verified": false,
+        "w": 1,
+        "h": 1,
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvQmxhbmtHZW0iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/250ec3ed08/BlankGem.png",
+        "support": false,
+        "league": "Rise of the Abyssal",
+        "id": "5275779ab911190621d12915be5047295f54caa93bbec6a1f2591ae9fe45c295",
+        "gemSockets": ["W", "W"],
+        "sockets": [
+          { "group": 0, "type": "gem", "item": "activegem" },
+          { "group": 1, "type": "gem", "item": "supportgem" }
+        ],
+        "name": "",
+        "typeLine": "Called Shots",
+        "baseType": "Called Shots",
+        "ilvl": 0,
+        "identified": true,
+        "properties": [
+          {
+            "name": "[Buff], [Persistent], [AoESkill|AoE], [Meta]",
+            "values": [],
+            "displayMode": 0
+          },
+          { "name": "Level", "values": [["9", 0]], "displayMode": 0, "type": 5 }
+        ],
+        "requirements": [
+          {
+            "name": "Level",
+            "values": [["31", 0]],
+            "displayMode": 0,
+            "type": 62
+          },
+          {
+            "name": "Level",
+            "values": [["22", 0]],
+            "displayMode": 0,
+            "type": 62,
+            "suffix": "(gem)"
+          }
+        ],
+        "secDescrText": "Applies a socketed [Mark] Skill to a nearby unmarked Enemy every few seconds. [Consume|Consuming] socketed [Mark|Marks] will cause them to be reapplied to an unmarked Enemy. This reapplication can happen at most once every half second.",
+        "gemTabs": [
+          {
+            "name": "Called Shots",
+            "pages": [
+              {
+                "stats": [
+                  "Applies a socketed [Mark] to 1 Enemy every five seconds",
+                  "Applies socketed [Mark|Marks] to Enemies within 4 metres"
+                ],
+                "skillName": "Called Shots"
+              }
+            ]
+          },
+          {
+            "name": "Support",
+            "pages": [
+              {
+                "properties": [],
+                "stats": [
+                  "Supported Skills will [Mark] another Enemy within 4 Metres of [Mark|Marked] Enemy when [Consume|Consumed]"
+                ],
+                "skillName": ""
+              }
+            ]
+          }
+        ],
+        "gemSkill": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvRGVhZGV5ZU1hcmtNZXRhZ2VtU2tpbGwiLCJyZWFsbSI6InBvZTIifV0/f9ccf2d67e/DeadeyeMarkMetagemSkill.png",
+        "descrText": "Place one or more Skill Gems into this Meta Gem's sockets in the Skills Panel. The socketed Skills will be incorporated into the Meta Gem's effect.",
+        "frameType": 4,
+        "x": 0,
+        "y": 0,
+        "inventoryId": "AscendancySkills",
+        "socketedItems": [
+          {
+            "realm": "poe2",
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvU25pcGVyc01hcmtTa2lsbEdlbSIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/5050c00a7b/SnipersMarkSkillGem.png",
+            "support": false,
+            "league": "Rise of the Abyssal",
+            "id": "bd6f6e5718dcec395c487bf684aa991874213afc1a05176d2d05e38164ae0f5f",
+            "gemSockets": ["W", "W"],
+            "sockets": [
+              { "group": 0, "type": "gem" },
+              { "group": 1, "type": "gem" }
+            ],
+            "name": "",
+            "typeLine": "Sniper's Mark",
+            "baseType": "Sniper's Mark",
+            "ilvl": 0,
+            "identified": true,
+            "properties": [
+              {
+                "name": "[Mark], [DurationSkill|Duration]",
+                "values": [],
+                "displayMode": 0
+              },
+              {
+                "name": "Level",
+                "values": [["7", 0]],
+                "displayMode": 0,
+                "type": 5
+              },
+              { "name": "Cost", "values": [["33 Mana", 0]], "displayMode": 0 },
+              {
+                "name": "Cooldown Time",
+                "values": [["6.00s", 0]],
+                "displayMode": 0
+              },
+              { "name": "Use Time", "values": [["0.50s", 0]], "displayMode": 0 }
+            ],
+            "requirements": [
+              {
+                "name": "Level",
+                "values": [["22", 0]],
+                "displayMode": 0,
+                "type": 62
+              },
+              {
+                "name": "[Dexterity|Dex]",
+                "values": [["41", 0]],
+                "displayMode": 1,
+                "type": 64
+              }
+            ],
+            "secDescrText": "[Mark] a target. The next [Critical|Critical Hit] the target receives [Consume|Consumes] the [Mark] to deal extra damage and grant you a [Charges|Frenzy Charge].",
+            "gemTabs": [
+              {
+                "name": "Sniper's Mark",
+                "pages": [
+                  {
+                    "stats": [
+                      "Limit 1 [Mark|Marked] target",
+                      "Maximum [Mark] duration is 8 seconds",
+                      "Next [Critical|Critical Hit] against Marked Enemy has 38% increased [CriticalDamageBonus|Critical Damage Bonus]"
+                    ],
+                    "skillName": "Sniper's Mark"
+                  }
+                ]
+              }
+            ],
+            "gemBackground": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1VJSW1hZ2VzL0luR2FtZS9TbWFydEhvdmVyL0dlbUhvdmVySW1hZ2UvR2VtSG92ZXJJbWFnZVNuaXBlcnNNYXJrIiwicmVhbG0iOiJwb2UyIn1d/8d179cec61/GemHoverImageSnipersMark.png",
+            "gemSkill": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvcHJvamVjdGlsZXdlYWtuZXNzIiwicmVhbG0iOiJwb2UyIn1d/45e7cdcd20/projectileweakness.png",
+            "descrText": "Skills can be managed in the Skills Panel.",
+            "frameType": 4,
+            "socket": 0,
+            "socketedItems": []
+          },
+          {
+            "realm": "poe2",
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9NdWx0aXBsZUNoYXJnZXNTdXBwb3J0R2VtIiwidyI6MSwiaCI6MSwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/a09aec6021/MultipleChargesSupportGem.png",
+            "support": true,
+            "iconTierText": "I",
+            "league": "Rise of the Abyssal",
+            "id": "0e9e2209ce5cd1dafb38898e3b7d630793057702b21238bf161eb0899852fcd5",
+            "name": "",
+            "typeLine": "Charge Profusion I",
+            "baseType": "Charge Profusion I",
+            "ilvl": 0,
+            "identified": true,
+            "properties": [
+              {
+                "name": "[SupportGem|Support]",
+                "values": [],
+                "displayMode": 0
+              },
+              {
+                "name": "[SupportGemCategory|Category]",
+                "values": [["Charge Profusion", 0]],
+                "displayMode": 0
+              },
+              {
+                "name": "Cost Multiplier",
+                "values": [["120%", 0]],
+                "displayMode": 0
+              }
+            ],
+            "supportGemRequirements": [
+              {
+                "name": "+5 [Dexterity|Dex]",
+                "values": [["(5)", 0]],
+                "displayMode": 0,
+                "type": 64
+              }
+            ],
+            "secDescrText": "Supports skills that can generate [Charges], giving them a chance to generate an additional [Charges|Charge] when they do so.",
+            "gemTabs": [
+              {
+                "name": "Support",
+                "pages": [
+                  {
+                    "stats": [
+                      "Supported Skills have 30% chance to\ngrant an additional [Charges|Charge]"
+                    ],
+                    "skillName": ""
+                  }
+                ]
+              }
+            ],
+            "descrText": "Place into a Skill's Support Gem socket in the Skills Panel to apply its effects to that Skill. You cannot have multiple Support Gems of the same Category socketed within one Skill.",
+            "frameType": 4,
+            "socket": 1
+          }
+        ]
+      },
+      {
+        "realm": "poe2",
+        "verified": false,
+        "w": 1,
+        "h": 1,
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvSGVyYWxkb2ZJY2VTa2lsbEdlbSIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/4da6fadc12/HeraldofIceSkillGem.png",
+        "support": false,
+        "league": "Rise of the Abyssal",
+        "id": "21e15fc4e55f39a1f5face90b4641109f9066f1cbd15118ccc8301ccf08e1e57",
+        "gemSockets": ["W", "W"],
+        "sockets": [
+          { "group": 0, "type": "gem", "item": "supportgem" },
+          { "group": 1, "type": "gem", "item": "supportgem" }
+        ],
+        "name": "",
+        "typeLine": "Herald of Ice",
+        "baseType": "Herald of Ice",
+        "ilvl": 0,
+        "identified": true,
+        "properties": [
+          {
+            "name": "[Buff], [Attack], [Persistent], [AoESkill|AoE], [Cold], [Herald], [Payoff]",
+            "values": [],
+            "displayMode": 0
+          },
+          {
+            "name": "Level",
+            "values": [["8", 0]],
+            "displayMode": 0,
+            "type": 5
+          },
+          { "name": "Attack Damage", "values": [["127%", 0]], "displayMode": 0 }
+        ],
+        "requirements": [
+          {
+            "name": "Level",
+            "values": [["26", 0]],
+            "displayMode": 0,
+            "type": 62
+          },
+          {
+            "name": "[Dexterity|Dex]",
+            "values": [["28", 0]],
+            "displayMode": 1,
+            "type": 64
+          },
+          {
+            "name": "[Intelligence|Int]",
+            "values": [["28", 0]],
+            "displayMode": 1,
+            "type": 65
+          }
+        ],
+        "weaponRequirements": [
+          {
+            "name": "",
+            "values": [["Any [MartialWeapon|Martial Weapon]", 0]],
+            "displayMode": 0,
+            "type": 96
+          }
+        ],
+        "secDescrText": "While active, [Shatter|Shattering] an enemy with a non-[Herald] [Attack] [HitDamage|Hit] will cause an icy explosion that deals [Attack|Attack] damage to surrounding enemies.",
+        "gemTabs": [
+          {
+            "name": "Buff",
+            "pages": [
+              {
+                "stats": [
+                  "Can't be [Evasion|Evaded]",
+                  "Explosion radius is 1.6 metres",
+                  "100% of Explosion [Physical|Physical] Damage\n[Conversion|Converted] to [Cold|Cold] Damage"
+                ],
+                "skillName": "Explosion"
+              },
+              {
+                "properties": [
+                  {
+                    "name": "Reservation",
+                    "values": [["30 [Spirit]", 0]],
+                    "displayMode": 0
+                  }
+                ],
+                "stats": ["Enemies you [Shatter] explode"],
+                "skillName": "Buff"
+              }
+            ]
+          }
+        ],
+        "gemSkill": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvSGVyYWxkT2ZJY2VTa2lsbCIsInJlYWxtIjoicG9lMiJ9XQ/67b2bddb20/HeraldOfIceSkill.png",
+        "descrText": "Skills can be managed in the Skills Panel.",
+        "frameType": 4,
+        "x": 5,
+        "y": 0,
+        "inventoryId": "SkillSlots",
+        "socketedItems": [
+          {
+            "realm": "poe2",
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9JbmNyZWFzZWRBcmVhT2ZFZmZlY3RTdXBwb3J0R2VtIiwidyI6MSwiaCI6MSwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/a6082d5155/IncreasedAreaOfEffectSupportGem.png",
+            "support": true,
+            "iconTierText": "I",
+            "league": "Rise of the Abyssal",
+            "id": "92b55f9ef8391b60dd1d06975c4439510329ed16450d923249d682eb04abbeb9",
+            "name": "",
+            "typeLine": "Magnified Area I",
+            "baseType": "Magnified Area I",
+            "ilvl": 0,
+            "identified": true,
+            "properties": [
+              {
+                "name": "[SupportGem|Support], [AoESkill|AoE]",
+                "values": [],
+                "displayMode": 0
+              },
+              {
+                "name": "[SupportGemCategory|Category]",
+                "values": [["Increased Area of Effect", 0]],
+                "displayMode": 0
+              },
+              {
+                "name": "Cost Multiplier",
+                "values": [["130%", 0]],
+                "displayMode": 0
+              }
+            ],
+            "supportGemRequirements": [
+              {
+                "name": "+5 [Intelligence|Int]",
+                "values": [["(5)", 0]],
+                "displayMode": 0,
+                "type": 65
+              }
+            ],
+            "secDescrText": "Supports any skill with an area of effect, making it larger.",
+            "gemTabs": [
+              {
+                "name": "Support",
+                "pages": [
+                  {
+                    "stats": [
+                      "Supported Skills have 35% increased Area of Effect"
+                    ],
+                    "skillName": ""
+                  }
+                ]
+              }
+            ],
+            "descrText": "Place into a Skill's Support Gem socket in the Skills Panel to apply its effects to that Skill. You cannot have multiple Support Gems of the same Category socketed within one Skill.",
+            "frameType": 4,
+            "socket": 0
+          },
+          {
+            "realm": "poe2",
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9NYWltU3VwcG9ydEdlbSIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/b970a35b11/MaimSupportGem.png",
+            "support": true,
+            "league": "Rise of the Abyssal",
+            "id": "2544476fda2ae8a6ce71b44bb898d614a5f072e88a012741f2b5284a39886f2c",
+            "name": "",
+            "typeLine": "Maim",
+            "baseType": "Maim",
+            "ilvl": 0,
+            "identified": true,
+            "properties": [
+              {
+                "name": "[SupportGem|Support], [Attack]",
+                "values": [],
+                "displayMode": 0
+              },
+              {
+                "name": "[SupportGemCategory|Category]",
+                "values": [["Maim", 0]],
+                "displayMode": 0
+              }
+            ],
+            "supportGemRequirements": [
+              {
+                "name": "+5 [Dexterity|Dex]",
+                "values": [["(5)", 0]],
+                "displayMode": 0,
+                "type": 64
+              }
+            ],
+            "secDescrText": "Supports [Attack|Attacks], causing them to [Maim|Maim] enemies.",
+            "gemTabs": [
+              {
+                "name": "Support",
+                "pages": [
+                  {
+                    "stats": [
+                      "Supported [Attack|Attacks] always [Maim|Maim] on [HitDamage|Hit]"
+                    ],
+                    "skillName": ""
+                  }
+                ]
+              }
+            ],
+            "descrText": "Place into a Skill's Support Gem socket in the Skills Panel to apply its effects to that Skill. You cannot have multiple Support Gems of the same Category socketed within one Skill.",
+            "frameType": 4,
+            "socket": 1
+          }
+        ]
+      },
+      {
+        "realm": "poe2",
+        "verified": false,
+        "w": 1,
+        "h": 1,
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvUmFuZ2VyRnJlZXppbmdTYWx2b1NraWxsR2VtIiwidyI6MSwiaCI6MSwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/4948549497/RangerFreezingSalvoSkillGem.png",
+        "support": false,
+        "league": "Rise of the Abyssal",
+        "id": "25461e212b7660ebe301e62d211c7e3be3f96d80e1215380a31b3a3ded1cdd8f",
+        "gemSockets": ["W", "W"],
+        "sockets": [
+          { "group": 0, "type": "gem", "item": "supportgem" },
+          { "group": 1, "type": "gem" }
+        ],
+        "name": "",
+        "typeLine": "Freezing Salvo",
+        "baseType": "Freezing Salvo",
+        "ilvl": 0,
+        "identified": true,
+        "properties": [
+          {
+            "name": "[Attack], [AoESkill|AoE], [Projectile], [Cold]",
+            "values": [],
+            "displayMode": 0
+          },
+          {
+            "name": "Level",
+            "values": [["7", 0]],
+            "displayMode": 0,
+            "type": 5
+          },
+          { "name": "Cost", "values": [["33 Mana", 0]], "displayMode": 0 },
+          { "name": "Attack Damage", "values": [["79%", 0]], "displayMode": 0 }
+        ],
+        "requirements": [
+          {
+            "name": "Level",
+            "values": [["22", 0]],
+            "displayMode": 0,
+            "type": 62
+          },
+          {
+            "name": "[Dexterity|Dex]",
+            "values": [["41", 0]],
+            "displayMode": 1,
+            "type": 64
+          }
+        ],
+        "weaponRequirements": [
+          { "name": "", "values": [["[Bow]", 0]], "displayMode": 0, "type": 96 }
+        ],
+        "secDescrText": "Passively coalesces icy missiles from the air over time. Using the skill fires a missile, firing an additional missile for each that has been accumulated. Fires an additional missile, up to its current missile count, targeting each [IceFragment|Ice Fragment] in its Area of effect, causing the [IceFragment|Fragments] to [DetonationTime|Detonate] immediately.",
+        "gemTabs": [
+          {
+            "name": "Freezing Salvo",
+            "pages": [
+              {
+                "stats": [
+                  "[Conversion|Converts] 80% of [Physical|Physical] Damage to [Cold|Cold] Damage",
+                  "68% more [Freeze|Freeze] Buildup",
+                  "Impact radius is 1.2 metres",
+                  "Accumulates up to 10 additional missiles",
+                  "Accumulates a missile every 0.75 seconds"
+                ],
+                "skillName": "Freezing Salvo"
+              }
+            ]
+          }
+        ],
+        "gemSkill": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvUmFuZ2VyRnJlZXppbmdTYWx2b1NraWxsIiwicmVhbG0iOiJwb2UyIn1d/75f9c0a581/RangerFreezingSalvoSkill.png",
+        "descrText": "Skills can be managed in the Skills Panel.",
+        "frameType": 4,
+        "x": 7,
+        "y": 0,
+        "inventoryId": "SkillSlots",
+        "socketedItems": [
+          {
+            "realm": "poe2",
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9Gcm96ZW5TcGl0ZVN1cHBvcnRHZW0iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/64dbc7defa/FrozenSpiteSupportGem.png",
+            "support": true,
+            "league": "Rise of the Abyssal",
+            "id": "10bb74647833e2b92e23f1e05877e7317e0c594348b3249036cc574701d93e53",
+            "name": "",
+            "typeLine": "Frozen Spite",
+            "baseType": "Frozen Spite",
+            "ilvl": 0,
+            "identified": true,
+            "properties": [
+              {
+                "name": "[SupportGem|Support], [AoESkill|AoE], [Projectile], [Cold]",
+                "values": [],
+                "displayMode": 0
+              },
+              {
+                "name": "[SupportGemCategory|Category]",
+                "values": [["Frozen Spite", 0]],
+                "displayMode": 0
+              }
+            ],
+            "supportGemRequirements": [
+              {
+                "name": "+5 [Dexterity|Dex]",
+                "values": [["(5)", 0]],
+                "displayMode": 0,
+                "type": 64
+              }
+            ],
+            "secDescrText": "Supports [Attack] Skills, causing them to create [IceFragment|Ice Fragments] on killing [Frozen] Enemies. Cannot Support [Totem] Skills and does not modify Skills used by [Minion|Minions].",
+            "gemTabs": [
+              {
+                "name": "Support",
+                "pages": [
+                  {
+                    "stats": [
+                      "Supported Skills trigger Ice Fragments on killing [Frozen] Enemies"
+                    ],
+                    "skillName": ""
+                  }
+                ]
+              },
+              {
+                "name": "Ice Fragments",
+                "pages": [
+                  {
+                    "properties": [],
+                    "description": "Explodes to deal [Cold] Damage in an area after a short delay, based on the life of the slain frozen Enemy.",
+                    "stats": [
+                      "[DetonationTime|Detonation Time] is 1.5 seconds",
+                      "Deals 10% of [Frozen] target's Maximum Life as [Cold] Damage",
+                      "Cannot [Freeze|Freeze]",
+                      "Fires 3 [Projectile|Projectiles]",
+                      "Explosion radius is 1.5 metres"
+                    ],
+                    "skillName": "Ice Fragments"
+                  }
+                ]
+              }
+            ],
+            "descrText": "Place into a Skill's Support Gem socket in the Skills Panel to apply its effects to that Skill. You cannot have multiple Support Gems of the same Category socketed within one Skill.",
+            "frameType": 4,
+            "socket": 0
+          }
+        ]
+      },
+      {
+        "realm": "poe2",
+        "verified": false,
+        "w": 1,
+        "h": 1,
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvUmFuZ2VyUmFpbk9mQXJyb3dzU2tpbGxHZW0iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ca0ddd0004/RangerRainOfArrowsSkillGem.png",
+        "support": false,
+        "league": "Rise of the Abyssal",
+        "id": "9d2791ef75b320ad785f53daa924a5fe15e4c36768f8a21907ff5290246c30a0",
+        "gemSockets": ["W", "W"],
+        "sockets": [
+          { "group": 0, "type": "gem", "item": "supportgem" },
+          { "group": 1, "type": "gem", "item": "supportgem" }
+        ],
+        "name": "",
+        "typeLine": "Rain of Arrows",
+        "baseType": "Rain of Arrows",
+        "ilvl": 0,
+        "identified": true,
+        "properties": [
+          {
+            "name": "[Attack], [AoESkill|AoE], [Projectile], [Sustained]",
+            "values": [],
+            "displayMode": 0
+          },
+          {
+            "name": "Level",
+            "values": [["9", 0]],
+            "displayMode": 0,
+            "type": 5
+          },
+          { "name": "Cost", "values": [["40 Mana", 0]], "displayMode": 0 },
+          {
+            "name": "Attack Speed",
+            "values": [["80% of base", 0]],
+            "displayMode": 0
+          },
+          { "name": "Attack Damage", "values": [["88%", 0]], "displayMode": 0 }
+        ],
+        "requirements": [
+          {
+            "name": "Level",
+            "values": [["31", 0]],
+            "displayMode": 0,
+            "type": 62
+          },
+          {
+            "name": "[Dexterity|Dex]",
+            "values": [["57", 0]],
+            "displayMode": 1,
+            "type": 64
+          }
+        ],
+        "weaponRequirements": [
+          { "name": "", "values": [["[Bow]", 0]], "displayMode": 0, "type": 96 }
+        ],
+        "secDescrText": "Fire a hail of arrows into the air, causing them to rain from above. [Consume|Consumes] your [Charges|Frenzy Charges] to fire more arrows.",
+        "gemTabs": [
+          {
+            "name": "Rain of Arrows",
+            "pages": [
+              {
+                "stats": [
+                  "Fires 34 Arrows",
+                  "Rain radius is 3.6 metres",
+                  "Arrow impact radius is 0.7 metres",
+                  "Maximum 1 arrow rain",
+                  "One arrow lands every 0.08 seconds",
+                  "Fires 100% more Arrows if a [Charges|Frenzy Charge] was consumed",
+                  "Fires 50% more Arrows per [Charges|Frenzy Charge] consumed",
+                  "Modifiers to [Projectile] speed apply to arrow landing frequency"
+                ],
+                "skillName": "Rain of Arrows"
+              }
+            ]
+          }
+        ],
+        "gemBackground": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1VJSW1hZ2VzL0luR2FtZS9TbWFydEhvdmVyL0dlbUhvdmVySW1hZ2UvR2VtSG92ZXJJbWFnZVJhaW5PZkFycm93cyIsInJlYWxtIjoicG9lMiJ9XQ/f378f0ff5a/GemHoverImageRainOfArrows.png",
+        "gemSkill": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvUmFuZ2VyUmFpbk9mQXJyb3dzU2tpbGwiLCJyZWFsbSI6InBvZTIifV0/93d0161530/RangerRainOfArrowsSkill.png",
+        "descrText": "Skills can be managed in the Skills Panel.",
+        "frameType": 4,
+        "x": 0,
+        "y": 0,
+        "inventoryId": "SkillSlots",
+        "socketedItems": [
+          {
+            "realm": "poe2",
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9JbmNyZWFzZWRBcmVhT2ZFZmZlY3RTdXBwb3J0R2VtIiwidyI6MSwiaCI6MSwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/a6082d5155/IncreasedAreaOfEffectSupportGem.png",
+            "support": true,
+            "iconTierText": "I",
+            "league": "Rise of the Abyssal",
+            "id": "68e21f82a5b4379772dc4f478fd464ee655a1ac4f3d5ebbbf1cb5d1ba9927cdf",
+            "name": "",
+            "typeLine": "Magnified Area I",
+            "baseType": "Magnified Area I",
+            "ilvl": 0,
+            "identified": true,
+            "properties": [
+              {
+                "name": "[SupportGem|Support], [AoESkill|AoE]",
+                "values": [],
+                "displayMode": 0
+              },
+              {
+                "name": "[SupportGemCategory|Category]",
+                "values": [["Increased Area of Effect", 0]],
+                "displayMode": 0
+              },
+              {
+                "name": "Cost Multiplier",
+                "values": [["130%", 0]],
+                "displayMode": 0
+              }
+            ],
+            "supportGemRequirements": [
+              {
+                "name": "+5 [Intelligence|Int]",
+                "values": [["(5)", 0]],
+                "displayMode": 0,
+                "type": 65
+              }
+            ],
+            "secDescrText": "Supports any skill with an area of effect, making it larger.",
+            "gemTabs": [
+              {
+                "name": "Support",
+                "pages": [
+                  {
+                    "stats": [
+                      "Supported Skills have 35% increased Area of Effect"
+                    ],
+                    "skillName": ""
+                  }
+                ]
+              }
+            ],
+            "descrText": "Place into a Skill's Support Gem socket in the Skills Panel to apply its effects to that Skill. You cannot have multiple Support Gems of the same Category socketed within one Skill.",
+            "frameType": 4,
+            "socket": 0
+          },
+          {
+            "realm": "poe2",
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9NdWx0aXBsZVByb2plY3RpbGVzU3VwcG9ydEdlbSIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/0b96c13e45/MultipleProjectilesSupportGem.png",
+            "support": true,
+            "iconTierText": "I",
+            "league": "Rise of the Abyssal",
+            "id": "2602694a0845bf8368ac367afe013ecffbd971c8af06b7e9d4151487ed3680ae",
+            "name": "",
+            "typeLine": "Multishot I",
+            "baseType": "Multishot I",
+            "ilvl": 0,
+            "identified": true,
+            "properties": [
+              {
+                "name": "[SupportGem|Support], [Projectile]",
+                "values": [],
+                "displayMode": 0
+              },
+              {
+                "name": "[SupportGemCategory|Category]",
+                "values": [["Additional Projectiles", 0]],
+                "displayMode": 0
+              }
+            ],
+            "supportGemRequirements": [
+              {
+                "name": "+5 [Dexterity|Dex]",
+                "values": [["(5)", 0]],
+                "displayMode": 0,
+                "type": 64
+              }
+            ],
+            "secDescrText": "Supports [Projectile|Projectile] skills, making them fire extra [Projectile|Projectiles]. Also lowers [Attack] and Cast speed of supported skills, as well as lessening their damage.",
+            "gemTabs": [
+              {
+                "name": "Support",
+                "pages": [
+                  {
+                    "stats": [
+                      "Supported Skills deal 35% less Damage",
+                      "Supported Skills fire 2 additional [Projectile|Projectiles]",
+                      "Supported Skills have 20% less [SkillSpeed|Skill Speed]"
+                    ],
+                    "skillName": ""
+                  }
+                ]
+              }
+            ],
+            "descrText": "Place into a Skill's Support Gem socket in the Skills Panel to apply its effects to that Skill. You cannot have multiple Support Gems of the same Category socketed within one Skill.",
+            "frameType": 4,
+            "socket": 1
+          }
+        ]
+      },
+      {
+        "realm": "poe2",
+        "verified": false,
+        "w": 1,
+        "h": 1,
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvSWNlU2hvdFNraWxsR2VtIiwidyI6MSwiaCI6MSwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/32f9c0922d/IceShotSkillGem.png",
+        "support": false,
+        "league": "Rise of the Abyssal",
+        "id": "82b959cc2ff861f8da676ceba96ff4ca9aee6d00e26a1e6f8625e5e2f01e3151",
+        "gemSockets": ["W", "W"],
+        "sockets": [
+          { "group": 0, "type": "gem", "item": "supportgem" },
+          { "group": 1, "type": "gem", "item": "supportgem" }
+        ],
+        "name": "",
+        "typeLine": "Ice Shot",
+        "baseType": "Ice Shot",
+        "ilvl": 0,
+        "identified": true,
+        "properties": [
+          {
+            "name": "[Attack], [Projectile], [Cold], [Repeat|Barrageable]",
+            "values": [],
+            "displayMode": 0
+          },
+          {
+            "name": "Level",
+            "values": [["9", 0]],
+            "displayMode": 0,
+            "type": 5
+          },
+          { "name": "Cost", "values": [["15 Mana", 0]], "displayMode": 0 },
+          {
+            "name": "Attack Speed",
+            "values": [["90% of base", 0]],
+            "displayMode": 0
+          },
+          { "name": "Attack Damage", "values": [["173%", 0]], "displayMode": 0 }
+        ],
+        "requirements": [
+          {
+            "name": "Level",
+            "values": [["31", 0]],
+            "displayMode": 0,
+            "type": 62
+          },
+          {
+            "name": "[Dexterity|Dex]",
+            "values": [["57", 0]],
+            "displayMode": 1,
+            "type": 64
+          }
+        ],
+        "weaponRequirements": [
+          { "name": "", "values": [["[Bow]", 0]], "displayMode": 0, "type": 96 }
+        ],
+        "secDescrText": "Fire an icy arrow that sprays a cone of ice shards when it hits a target.",
+        "gemTabs": [
+          {
+            "name": "Arrow",
+            "pages": [
+              {
+                "stats": [
+                  "[Conversion|Converts] 70% of [Physical|Physical] Damage to [Cold|Cold] Damage",
+                  "50% more [BuffMagnitude|Magnitude] of [Chill|Chill] inflicted"
+                ],
+                "skillName": "Arrow"
+              },
+              {
+                "properties": [
+                  {
+                    "name": "Attack Damage",
+                    "values": [["137%", 0]],
+                    "displayMode": 0
+                  }
+                ],
+                "stats": [
+                  "[Conversion|Converts] 100% of [Physical|Physical] Damage to [Cold|Cold] Damage",
+                  "Fires 6 [Projectile|Projectiles]"
+                ],
+                "skillName": "Shards"
+              }
+            ]
+          }
+        ],
+        "gemSkill": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvUmFuZ2VySWNlU2hvdCIsInJlYWxtIjoicG9lMiJ9XQ/2602110cd5/RangerIceShot.png",
+        "descrText": "Skills can be managed in the Skills Panel.",
+        "frameType": 4,
+        "x": 8,
+        "y": 0,
+        "inventoryId": "SkillSlots",
+        "socketedItems": [
+          {
+            "realm": "poe2",
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9IeXBvdGhlcm1pYVN1cHBvcnRHZW0iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/7cbdd8a882/HypothermiaSupportGem.png",
+            "support": true,
+            "league": "Rise of the Abyssal",
+            "id": "9d8e8cbe54201bf1cb0389cb1bdf5a4df6166dfbf548c0d015baed60102ac7b7",
+            "name": "",
+            "typeLine": "Freeze",
+            "baseType": "Freeze",
+            "ilvl": 0,
+            "identified": true,
+            "properties": [
+              {
+                "name": "[SupportGem|Support], [Cold]",
+                "values": [],
+                "displayMode": 0
+              },
+              {
+                "name": "[SupportGemCategory|Category]",
+                "values": [["Freeze", 0]],
+                "displayMode": 0
+              },
+              {
+                "name": "Cost Multiplier",
+                "values": [["120%", 0]],
+                "displayMode": 0
+              }
+            ],
+            "supportGemRequirements": [
+              {
+                "name": "+5 [Intelligence|Int]",
+                "values": [["(5)", 0]],
+                "displayMode": 0,
+                "type": 65
+              }
+            ],
+            "secDescrText": "Supports any skill that [HitDamage|Hits] enemies, making it more effective at [Freeze|Freezing] enemies.",
+            "gemTabs": [
+              {
+                "name": "Support",
+                "pages": [
+                  {
+                    "stats": [
+                      "Supported Skills cause 50% more [Freeze|Freeze] Buildup"
+                    ],
+                    "skillName": ""
+                  }
+                ]
+              }
+            ],
+            "descrText": "Place into a Skill's Support Gem socket in the Skills Panel to apply its effects to that Skill. You cannot have multiple Support Gems of the same Category socketed within one Skill.",
+            "frameType": 4,
+            "socket": 0
+          },
+          {
+            "realm": "poe2",
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9GYXN0ZXJBdHRhY2tTdXBwb3J0R2VtIiwidyI6MSwiaCI6MSwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/1824662136/FasterAttackSupportGem.png",
+            "support": true,
+            "iconTierText": "I",
+            "league": "Rise of the Abyssal",
+            "id": "fc2744c0c8ec8af12cea90aeafefb7fa6aff12af8abc3bf5b589dff0fa2da69a",
+            "name": "",
+            "typeLine": "Rapid Attacks I",
+            "baseType": "Rapid Attacks I",
+            "ilvl": 0,
+            "identified": true,
+            "properties": [
+              {
+                "name": "[SupportGem|Support], [Attack]",
+                "values": [],
+                "displayMode": 0
+              },
+              {
+                "name": "[SupportGemCategory|Category]",
+                "values": [["Rapid Attacks", 0]],
+                "displayMode": 0
+              }
+            ],
+            "supportGemRequirements": [
+              {
+                "name": "+5 [Dexterity|Dex]",
+                "values": [["(5)", 0]],
+                "displayMode": 0,
+                "type": 64
+              }
+            ],
+            "secDescrText": "Supports [Attack|Attacks], causing them to [Attack] faster.",
+            "gemTabs": [
+              {
+                "name": "Support",
+                "pages": [
+                  {
+                    "stats": [
+                      "Supported Skills have 15% increased [Attack] Speed"
+                    ],
+                    "skillName": ""
+                  }
+                ]
+              }
+            ],
+            "descrText": "Place into a Skill's Support Gem socket in the Skills Panel to apply its effects to that Skill. You cannot have multiple Support Gems of the same Category socketed within one Skill.",
+            "frameType": 4,
+            "socket": 1
+          }
+        ]
+      },
+      {
+        "realm": "poe2",
+        "verified": false,
+        "w": 1,
+        "h": 1,
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvRnJvc3RFc2NhcGVTa2lsbEdlbSIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/a189d6d5b9/FrostEscapeSkillGem.png",
+        "support": false,
+        "league": "Rise of the Abyssal",
+        "id": "6ba3fb9a3f5a883b444f3e18a8972647975873a38470509eb1a49d0481f21286",
+        "gemSockets": ["W", "W"],
+        "sockets": [
+          { "group": 0, "type": "gem" },
+          { "group": 1, "type": "gem" }
+        ],
+        "name": "",
+        "typeLine": "Escape Shot",
+        "baseType": "Escape Shot",
+        "ilvl": 0,
+        "identified": true,
+        "properties": [
+          {
+            "name": "[Attack], [AoESkill|AoE], [Projectile], [Cold]",
+            "values": [],
+            "displayMode": 0
+          },
+          {
+            "name": "Level",
+            "values": [["6", 0]],
+            "displayMode": 0,
+            "type": 5
+          },
+          { "name": "Cost", "values": [["21 Mana", 0]], "displayMode": 0 },
+          { "name": "Attack Damage", "values": [["102%", 0]], "displayMode": 0 }
+        ],
+        "requirements": [
+          {
+            "name": "Level",
+            "values": [["18", 0]],
+            "displayMode": 0,
+            "type": 62
+          },
+          {
+            "name": "[Dexterity|Dex]",
+            "values": [["35", 0]],
+            "displayMode": 1,
+            "type": 64
+          }
+        ],
+        "weaponRequirements": [
+          { "name": "", "values": [["[Bow]", 0]], "displayMode": 0, "type": 96 }
+        ],
+        "secDescrText": "Leap backwards, firing an icy arrow which can [Chill] or [Freeze] enemies around the location from which you escaped. This arrow will create [IceFragment|Ice Fragments] on impact.",
+        "gemTabs": [
+          {
+            "name": "Escape Shot",
+            "pages": [
+              {
+                "stats": [
+                  "[Conversion|Converts] 80% of [Physical|Physical] Damage to [Cold|Cold] Damage",
+                  "Projectile count cannot be modified",
+                  "+0.7 seconds to [TotalPlus|Total] [Attack] Time",
+                  "375% more [Freeze|Freeze] Buildup",
+                  "Impact radius is 2.4 metres"
+                ],
+                "skillName": "Escape Shot"
+              }
+            ]
+          },
+          {
+            "name": "Ice Fragments",
+            "pages": [
+              {
+                "properties": [
+                  {
+                    "name": "Attack Damage",
+                    "values": [["84%", 0]],
+                    "displayMode": 0
+                  }
+                ],
+                "stats": [
+                  "[DetonationTime|Detonation Time] is 2.5 seconds",
+                  "[Conversion|Converts] 100% of [Physical|Physical] Damage to [Cold|Cold] Damage",
+                  "Fires 4 [Projectile|Projectiles]",
+                  "Explosion radius is 1.3 metres"
+                ],
+                "skillName": "Ice Fragments"
+              }
+            ]
+          }
+        ],
+        "gemBackground": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1VJSW1hZ2VzL0luR2FtZS9TbWFydEhvdmVyL0dlbUhvdmVySW1hZ2UvR2VtSG92ZXJJbWFnZUVzY2FwZVNob3QiLCJyZWFsbSI6InBvZTIifV0/6844592610/GemHoverImageEscapeShot.png",
+        "gemSkill": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvUmFuZ2VyRnJvc3RFc2NhcGVTaG90IiwicmVhbG0iOiJwb2UyIn1d/27b4da4725/RangerFrostEscapeShot.png",
+        "descrText": "Skills can be managed in the Skills Panel.",
+        "frameType": 4,
+        "x": 2,
+        "y": 0,
+        "inventoryId": "SkillSlots",
+        "socketedItems": []
+      },
+      {
+        "realm": "poe2",
+        "verified": false,
+        "w": 1,
+        "h": 1,
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvUmFuZ2VyQmFycmFnZVNraWxsR2VtIiwidyI6MSwiaCI6MSwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/9fc9ce784a/RangerBarrageSkillGem.png",
+        "support": false,
+        "league": "Rise of the Abyssal",
+        "id": "0fc681ae86baabf75141c9a899b30eb1028b416b0ca30c6eb671cee4f639d36d",
+        "gemSockets": ["W", "W"],
+        "sockets": [
+          { "group": 0, "type": "gem", "item": "supportgem" },
+          { "group": 1, "type": "gem" }
+        ],
+        "name": "",
+        "typeLine": "Barrage",
+        "baseType": "Barrage",
+        "ilvl": 0,
+        "identified": true,
+        "properties": [
+          {
+            "name": "[Spell], [Buff], [DurationSkill|Duration]",
+            "values": [],
+            "displayMode": 0
+          },
+          {
+            "name": "Level",
+            "values": [["5", 0]],
+            "displayMode": 0,
+            "type": 5
+          },
+          { "name": "Cost", "values": [["18 Mana", 0]], "displayMode": 0 },
+          {
+            "name": "Cooldown Time",
+            "values": [["2.00s", 0]],
+            "displayMode": 0
+          },
+          { "name": "Cast Time", "values": [["0.70s", 0]], "displayMode": 0 }
+        ],
+        "requirements": [
+          {
+            "name": "Level",
+            "values": [["14", 0]],
+            "displayMode": 0,
+            "type": 62
+          },
+          {
+            "name": "[Dexterity|Dex]",
+            "values": [["28", 0]],
+            "displayMode": 1,
+            "type": 64
+          }
+        ],
+        "weaponRequirements": [
+          {
+            "name": "",
+            "values": [["[Spear]", 0]],
+            "displayMode": 0,
+            "type": 96
+          },
+          { "name": "", "values": [["[Bow]", 0]], "displayMode": 0, "type": 96 }
+        ],
+        "secDescrText": "Ready a volley of arrows or spears, [Empowered|Empowering] your next Barrageable [Bow|Bow] or [Projectile] [Spear|Spear] [Attack|Attack] to [Repeat] multiple times. Consumes your [Charges|Frenzy Charges] on use to add additional repeats.",
+        "gemTabs": [
+          {
+            "name": "Barrage",
+            "pages": [
+              {
+                "stats": [
+                  "[Empowered] [Attack|Attacks] [Repeat] +2 times, and a further +1 time per Frenzy Charge consumed",
+                  "Repeats deal 50% less Damage",
+                  "560% of repeated Skill's attack time is added to this skill's cooldown, to a maximum of 30 seconds",
+                  "Maximum [Buff] duration is 5 seconds"
+                ],
+                "skillName": "Barrage"
+              }
+            ]
+          }
+        ],
+        "gemBackground": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1VJSW1hZ2VzL0luR2FtZS9TbWFydEhvdmVyL0dlbUhvdmVySW1hZ2UvR2VtSG92ZXJJbWFnZUJhcnJhZ2UiLCJyZWFsbSI6InBvZTIifV0/61353f48e8/GemHoverImageBarrage.png",
+        "gemSkill": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvUmFuZ2VyQmFycmFnZVNraWxsIiwicmVhbG0iOiJwb2UyIn1d/fd3f16120f/RangerBarrageSkill.png",
+        "descrText": "Skills can be managed in the Skills Panel.",
+        "frameType": 4,
+        "x": 6,
+        "y": 0,
+        "inventoryId": "SkillSlots",
+        "socketedItems": [
+          {
+            "realm": "poe2",
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9Qb3RlbmN5U3VwcG9ydEdlbSIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/9f66b1989d/PotencySupportGem.png",
+            "support": true,
+            "league": "Rise of the Abyssal",
+            "id": "544f8b18daefc337ab38ba9fee1c48c0a6e2cc5c5ac022dbd85394d521ea752d",
+            "name": "",
+            "typeLine": "Heightened Charges",
+            "baseType": "Heightened Charges",
+            "ilvl": 0,
+            "identified": true,
+            "properties": [
+              {
+                "name": "[SupportGem|Support]",
+                "values": [],
+                "displayMode": 0
+              },
+              {
+                "name": "[SupportGemCategory|Category]",
+                "values": [["Twofold", 0]],
+                "displayMode": 0
+              },
+              {
+                "name": "Cost Multiplier",
+                "values": [["115%", 0]],
+                "displayMode": 0
+              }
+            ],
+            "supportGemRequirements": [
+              {
+                "name": "+5 [Dexterity|Dex]",
+                "values": [["(5)", 0]],
+                "displayMode": 0,
+                "type": 64
+              }
+            ],
+            "secDescrText": "Supports any Skill that [Consume|Consumes] [Charges], granting a chance for benefits of that [Consume|Consumption] to be doubled.",
+            "gemTabs": [
+              {
+                "name": "Support",
+                "pages": [
+                  {
+                    "stats": [
+                      "Benefits from consuming [Charges] for Supported Skill have 20% chance to be doubled"
+                    ],
+                    "skillName": ""
+                  }
+                ]
+              }
+            ],
+            "descrText": "Place into a Skill's Support Gem socket in the Skills Panel to apply its effects to that Skill. You cannot have multiple Support Gems of the same Category socketed within one Skill.",
+            "frameType": 4,
+            "socket": 0
+          }
+        ]
+      },
+      {
+        "realm": "poe2",
+        "verified": false,
+        "w": 1,
+        "h": 1,
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvUmFuZ2VyU2hlYXJpbmdCb2x0c1NraWxsR2VtIiwidyI6MSwiaCI6MSwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/be08e968f0/RangerShearingBoltsSkillGem.png",
+        "support": false,
+        "league": "Rise of the Abyssal",
+        "id": "4c477de84bdcf19d501e9e37fd7a888f39ddb9364f6bd813cf442ef3bf21bc51",
+        "gemSockets": ["W", "W"],
+        "sockets": [
+          { "group": 0, "type": "gem", "item": "supportgem" },
+          { "group": 1, "type": "gem" }
+        ],
+        "name": "",
+        "typeLine": "Ice-Tipped Arrows",
+        "baseType": "Ice-Tipped Arrows",
+        "ilvl": 0,
+        "identified": true,
+        "properties": [
+          {
+            "name": "[Spell], [Attack], [Buff], [AoESkill|AoE], [Projectile], [Cold], [DurationSkill|Duration]",
+            "values": [],
+            "displayMode": 0
+          },
+          {
+            "name": "Level",
+            "values": [["8", 0]],
+            "displayMode": 0,
+            "type": 5
+          },
+          { "name": "Cost", "values": [["29 Mana", 0]], "displayMode": 0 },
+          {
+            "name": "Cooldown Time",
+            "values": [["12.00s", 0]],
+            "displayMode": 0
+          },
+          { "name": "Cast Time", "values": [["0.70s", 0]], "displayMode": 0 }
+        ],
+        "requirements": [
+          {
+            "name": "Level",
+            "values": [["26", 0]],
+            "displayMode": 0,
+            "type": 62
+          },
+          {
+            "name": "[Dexterity|Dex]",
+            "values": [["48", 0]],
+            "displayMode": 1,
+            "type": 64
+          }
+        ],
+        "weaponRequirements": [
+          {
+            "name": "",
+            "values": [["[Spear]", 0]],
+            "displayMode": 0,
+            "type": 96
+          },
+          { "name": "", "values": [["[Bow]", 0]], "displayMode": 0, "type": 96 }
+        ],
+        "secDescrText": "Ready your active [Bow] or [Spear], [Empowered|Empowering] your next Barrageable [Bow] or [Projectile] [Spear] [Attack|Attacks] to create [IceFragment|Ice Fragments] on [HitDamage|Hit]. This Skill's cooldown can be bypassed by expending a [Charges|Frenzy Charge]. Cannot [Empowered|Empower] [Sustained] Skills.",
+        "gemTabs": [
+          {
+            "name": "Ice-Tipped Arrows",
+            "pages": [
+              {
+                "stats": [
+                  "Maximum [Buff] duration is 8 seconds",
+                  "[Empowered|Empowers] 4 [Attack|Attacks]"
+                ],
+                "skillName": "Ice-Tipped Arrows"
+              }
+            ]
+          },
+          {
+            "name": "Ice Fragments",
+            "pages": [
+              {
+                "properties": [
+                  {
+                    "name": "Cooldown Time",
+                    "values": [["0.30s", 0]],
+                    "displayMode": 0
+                  },
+                  {
+                    "name": "Attack Damage",
+                    "values": [["77%", 0]],
+                    "displayMode": 0
+                  }
+                ],
+                "stats": [
+                  "[DetonationTime|Detonation Time] is 2.5 seconds",
+                  "[Conversion|Converts] 100% of [Physical|Physical] Damage to [Cold|Cold] Damage",
+                  "Fires 3 [Projectile|Projectiles]",
+                  "Explosion radius is 1.3 metres"
+                ],
+                "skillName": "Ice Fragments"
+              }
+            ]
+          }
+        ],
+        "gemSkill": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvUmFuZ2VyU2hlYXJpbmdCb2x0cyIsInJlYWxtIjoicG9lMiJ9XQ/69946bcefe/RangerShearingBolts.png",
+        "descrText": "Skills can be managed in the Skills Panel.",
+        "frameType": 4,
+        "x": 4,
+        "y": 0,
+        "inventoryId": "SkillSlots",
+        "socketedItems": [
+          {
+            "realm": "poe2",
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9FeHBlZGl0ZVN1cHBvcnRHZW0iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e884b653c5/ExpediteSupportGem.png",
+            "support": true,
+            "iconTierText": "I",
+            "league": "Rise of the Abyssal",
+            "id": "a337266fac80de75cf53e3ee36f6c7ca59ef4e57149732c366504ea4afd34b5f",
+            "name": "",
+            "typeLine": "Short Fuse I",
+            "baseType": "Short Fuse I",
+            "ilvl": 0,
+            "identified": true,
+            "properties": [
+              {
+                "name": "[SupportGem|Support]",
+                "values": [],
+                "displayMode": 0
+              },
+              {
+                "name": "[SupportGemCategory|Category]",
+                "values": [["Short Fuse", 0]],
+                "displayMode": 0
+              },
+              {
+                "name": "Cost Multiplier",
+                "values": [["115%", 0]],
+                "displayMode": 0
+              }
+            ],
+            "supportGemRequirements": [
+              {
+                "name": "+5 [Strength|Str]",
+                "values": [["(5)", 0]],
+                "displayMode": 0,
+                "type": 63
+              }
+            ],
+            "secDescrText": "Supports Skills which [DetonationTime|Detonate] after some amount of time has elapsed, shortening the time before [DetonationTime|Detonation]. ",
+            "gemTabs": [
+              {
+                "name": "Support",
+                "pages": [
+                  {
+                    "stats": [
+                      "Supported Skills have 40% less [DetonationTime|Detonation Time]"
+                    ],
+                    "skillName": ""
+                  }
+                ]
+              }
+            ],
+            "descrText": "Place into a Skill's Support Gem socket in the Skills Panel to apply its effects to that Skill. You cannot have multiple Support Gems of the same Category socketed within one Skill.",
+            "frameType": 4,
+            "socket": 0
+          }
+        ]
+      },
+      {
+        "realm": "poe2",
+        "verified": false,
+        "w": 1,
+        "h": 1,
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvUmFuZ2VyTGlnaHRuaW5nUm9kUmFpblNraWxsR2VtIiwidyI6MSwiaCI6MSwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/dbb4597574/RangerLightningRodRainSkillGem.png",
+        "support": false,
+        "league": "Rise of the Abyssal",
+        "id": "62ae535c34e7b6a563d7eaf3e738f6c483eabbf35e019568b44e4206d013637e",
+        "gemSockets": ["W", "W"],
+        "sockets": [
+          { "group": 0, "type": "gem" },
+          { "group": 1, "type": "gem" }
+        ],
+        "name": "",
+        "typeLine": "Lightning Rod",
+        "baseType": "Lightning Rod",
+        "ilvl": 0,
+        "identified": true,
+        "properties": [
+          {
+            "name": "[Attack], [AoESkill|AoE], [Projectile], [Sustained], [Lightning], [DurationSkill|Duration], [Repeat|Barrageable]",
+            "values": [],
+            "displayMode": 0
+          },
+          {
+            "name": "Level",
+            "values": [["8", 0]],
+            "displayMode": 0,
+            "type": 5
+          },
+          { "name": "Cost", "values": [["10 Mana", 0]], "displayMode": 0 },
+          {
+            "name": "Attack Speed",
+            "values": [["120% of base", 0]],
+            "displayMode": 0
+          },
+          { "name": "Attack Damage", "values": [["46%", 0]], "displayMode": 0 }
+        ],
+        "requirements": [
+          {
+            "name": "Level",
+            "values": [["26", 0]],
+            "displayMode": 0,
+            "type": 62
+          },
+          {
+            "name": "[Dexterity|Dex]",
+            "values": [["48", 0]],
+            "displayMode": 1,
+            "type": 64
+          }
+        ],
+        "weaponRequirements": [
+          { "name": "", "values": [["[Bow]", 0]], "displayMode": 0, "type": 96 }
+        ],
+        "secDescrText": "Fire an arrow that drops from above, creating a [Lightning|Lightning] burst. The arrow remains in the ground, and any [Chain|Chaining] [Lightning|Lightning] beams can [Chain|Chain] to it. When [Chain|Chained] to, the arrows charge up for a brief period before releasing another [Lightning|Lightning] burst. The Lightning Arrow Skill skips this delay, causing bursts immediately.",
+        "gemTabs": [
+          {
+            "name": "Lightning Rod",
+            "pages": [
+              {
+                "stats": [
+                  "[Conversion|Converts] 100% of [Physical] Damage to [Lightning] Damage",
+                  "Burst radius is 2 metres",
+                  "Maximum Arrow duration is 20 seconds",
+                  "Arrow disappears after being [Chain|Chained] to 8 times",
+                  "Maximum 20 active Arrows"
+                ],
+                "skillName": "Lightning Rod"
+              }
+            ]
+          }
+        ],
+        "gemBackground": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1VJSW1hZ2VzL0luR2FtZS9TbWFydEhvdmVyL0dlbUhvdmVySW1hZ2UvR2VtSG92ZXJJbWFnZUxpZ2h0bmluZ1JvZCIsInJlYWxtIjoicG9lMiJ9XQ/6d5be144fa/GemHoverImageLightningRod.png",
+        "gemSkill": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvUmFuZ2VyTGlnaHRuaW5nUm9kUmFpblNraWxsIiwicmVhbG0iOiJwb2UyIn1d/1deb133f86/RangerLightningRodRainSkill.png",
+        "descrText": "Skills can be managed in the Skills Panel.",
+        "frameType": 4,
+        "x": 1,
+        "y": 0,
+        "inventoryId": "SkillSlots",
+        "socketedItems": []
+      },
+      {
+        "realm": "poe2",
+        "verified": false,
+        "w": 1,
+        "h": 1,
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvUmFuZ2VyU25pcGVTa2lsbEdlbSIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/a53166659d/RangerSnipeSkillGem.png",
+        "support": false,
+        "league": "Rise of the Abyssal",
+        "id": "8d90ea4237f47975faf72ec805c65723933981b2884555163a65500fcf31c711",
+        "gemSockets": ["W", "W"],
+        "sockets": [
+          { "group": 0, "type": "gem", "item": "supportgem" },
+          { "group": 1, "type": "gem", "item": "supportgem" }
+        ],
+        "name": "",
+        "typeLine": "Snipe",
+        "baseType": "Snipe",
+        "ilvl": 0,
+        "identified": true,
+        "properties": [
+          {
+            "name": "[Attack], [AoESkill|AoE], [Projectile], [Cold], [Channelling], [Payoff], [Repeat|Barrageable]",
+            "values": [],
+            "displayMode": 0
+          },
+          {
+            "name": "Level",
+            "values": [["7", 0]],
+            "displayMode": 0,
+            "type": 5
+          },
+          {
+            "name": "Cost",
+            "values": [["37.3 Mana per second", 0]],
+            "displayMode": 0
+          },
+          {
+            "name": "Attack Speed",
+            "values": [["45% of base", 0]],
+            "displayMode": 0
+          },
+          { "name": "Attack Damage", "values": [["180%", 0]], "displayMode": 0 }
+        ],
+        "requirements": [
+          {
+            "name": "Level",
+            "values": [["22", 0]],
+            "displayMode": 0,
+            "type": 62
+          },
+          {
+            "name": "[Dexterity|Dex]",
+            "values": [["41", 0]],
+            "displayMode": 1,
+            "type": 64
+          }
+        ],
+        "weaponRequirements": [
+          { "name": "", "values": [["[Bow]", 0]], "displayMode": 0, "type": 96 }
+        ],
+        "secDescrText": "[Channelling|Channel] to charge up your bow before releasing a powerful shot. Releasing with [PerfectTiming|Perfect Timing] causes the arrow to explode on impact and [Consume] [Freeze] on directly [HitDamage|Hitting]. [Consume|Consuming] [Freeze] or [HitDamage|Hitting] a [HeavyStun|Heavy Stunned] enemy enhances the explosion.",
+        "gemTabs": [
+          {
+            "name": "Arrow",
+            "pages": [
+              {
+                "stats": [
+                  "Modifers to [Attack] speed also affect this skill's cost"
+                ],
+                "skillName": "Arrow"
+              },
+              {
+                "properties": [
+                  {
+                    "name": "Attack Damage",
+                    "values": [["492%", 0]],
+                    "displayMode": 0
+                  }
+                ],
+                "stats": ["Explosion radius is 2.5 metres"],
+                "skillName": "Explosion"
+              },
+              {
+                "properties": [
+                  {
+                    "name": "Attack Damage",
+                    "values": [["655%", 0]],
+                    "displayMode": 0
+                  }
+                ],
+                "stats": ["Explosion radius is 3.5 metres"],
+                "skillName": "Heavy Blast"
+              },
+              {
+                "properties": [
+                  {
+                    "name": "Attack Damage",
+                    "values": [["780%", 0]],
+                    "displayMode": 0
+                  }
+                ],
+                "stats": [
+                  "[Conversion|Converts] 100% of [Physical|Physical] Damage to [Cold|Cold] Damage",
+                  "Explosion radius is 3.2 metres",
+                  "50% more damage with [HitDamage|Hits] for explosions originating\nfrom a [Rarity|Unique] enemy"
+                ],
+                "skillName": "Icy Blast"
+              }
+            ]
+          }
+        ],
+        "gemBackground": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1VJSW1hZ2VzL0luR2FtZS9TbWFydEhvdmVyL0dlbUhvdmVySW1hZ2UvR2VtSG92ZXJJbWFnZVNuaXBlIiwicmVhbG0iOiJwb2UyIn1d/9b0151725c/GemHoverImageSnipe.png",
+        "gemSkill": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvUmFuZ2VyU25pcGVTaG90QXJyb3ciLCJyZWFsbSI6InBvZTIifV0/029787c97c/RangerSnipeShotArrow.png",
+        "descrText": "Skills can be managed in the Skills Panel.",
+        "frameType": 4,
+        "x": 3,
+        "y": 0,
+        "inventoryId": "SkillSlots",
+        "socketedItems": [
+          {
+            "realm": "poe2",
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9XaW5kb3dPZk9wcG9ydHVuaXR5U3VwcG9ydEdlbSIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/dde8e98074/WindowOfOpportunitySupportGem.png",
+            "support": true,
+            "iconTierText": "I",
+            "league": "Rise of the Abyssal",
+            "id": "025dbaad74fbce778e19880d50b03d0fd17f1715bdf01048e94388ed35e9a5d3",
+            "name": "",
+            "typeLine": "Window of Opportunity I",
+            "baseType": "Window of Opportunity I",
+            "ilvl": 0,
+            "identified": true,
+            "properties": [
+              {
+                "name": "[SupportGem|Support], [Channelling]",
+                "values": [],
+                "displayMode": 0
+              },
+              {
+                "name": "[SupportGemCategory|Category]",
+                "values": [["Window of Opportunity", 0]],
+                "displayMode": 0
+              }
+            ],
+            "supportGemRequirements": [
+              {
+                "name": "+5 [Dexterity|Dex]",
+                "values": [["(5)", 0]],
+                "displayMode": 0,
+                "type": 64
+              }
+            ],
+            "secDescrText": "Supports [Channelling] skills that have special effects if released with [PerfectTiming|Perfect Timing], causing them to deal much more damage if released with [PerfectTiming|Perfect Timing] but reducing the [PerfectTiming|Perfect Timing] window.",
+            "gemTabs": [
+              {
+                "name": "Support",
+                "pages": [
+                  {
+                    "stats": [
+                      "Supported Skills have a 35% shorter [PerfectTiming|Perfect Timing] window",
+                      "Supported Skills deal 35% more Damage when released with [PerfectTiming|Perfect Timing]"
+                    ],
+                    "skillName": ""
+                  }
+                ]
+              }
+            ],
+            "descrText": "Place into a Skill's Support Gem socket in the Skills Panel to apply its effects to that Skill. You cannot have multiple Support Gems of the same Category socketed within one Skill.",
+            "frameType": 4,
+            "socket": 0
+          },
+          {
+            "realm": "poe2",
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9Ib3VyZ2xhc3NTdXBwb3J0R2VtIiwidyI6MSwiaCI6MSwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/8391334962/HourglassSupportGem.png",
+            "support": true,
+            "league": "Rise of the Abyssal",
+            "id": "21192946d20c49a386913356e3be76066dcf1759cd72ee531186e55c51272484",
+            "name": "",
+            "typeLine": "Hourglass",
+            "baseType": "Hourglass",
+            "ilvl": 0,
+            "identified": true,
+            "properties": [
+              {
+                "name": "[SupportGem|Support]",
+                "values": [],
+                "displayMode": 0
+              },
+              {
+                "name": "[SupportGemCategory|Category]",
+                "values": [["Grants Cooldown", 0]],
+                "displayMode": 0
+              }
+            ],
+            "supportGemRequirements": [
+              {
+                "name": "+5 [Intelligence|Int]",
+                "values": [["(5)", 0]],
+                "displayMode": 0,
+                "type": 65
+              }
+            ],
+            "secDescrText": "Supports any damaging skill that you use yourself, causing it to deal significantly more damage but gain a long cooldown. Cannot support Skills which already have a cooldown.",
+            "gemTabs": [
+              {
+                "name": "Support",
+                "pages": [
+                  {
+                    "stats": [
+                      "Supported Skills deal 30% more Damage",
+                      "Supported Skills have a Cooldown of 10 seconds"
+                    ],
+                    "skillName": ""
+                  }
+                ]
+              }
+            ],
+            "descrText": "Place into a Skill's Support Gem socket in the Skills Panel to apply its effects to that Skill. You cannot have multiple Support Gems of the same Category socketed within one Skill.",
+            "frameType": 4,
+            "socket": 1
+          }
+        ]
+      }
+    ],
+    "inventory": [],
+    "jewels": [],
+    "passives": {
+      "hashes": [
+        144, 1995, 5704, 9275, 9421, 11472, 12498, 12611, 13341, 13783, 18548,
+        19337, 19808, 19880, 21280, 25700, 26598, 28050, 28086, 28992, 30341,
+        30695, 32155, 35234, 35660, 35901, 40270, 41096, 49165, 54557, 56651,
+        56841, 57088, 59913, 60505, 61246, 61312, 61356, 62166, 63255, 63888,
+        64213
+      ],
+      "specialisations": {},
+      "skill_overrides": {
+        "21280": {
+          "name": "Intelligence",
+          "icon": "Art/2DArt/SkillIcons/passives/plusintelligence.png",
+          "grantedIntelligence": 5,
+          "stats": ["+5 to [Intelligence]"]
+        },
+        "26598": {
+          "name": "Dexterity",
+          "icon": "Art/2DArt/SkillIcons/passives/plusdexterity.png",
+          "grantedDexterity": 5,
+          "stats": ["+5 to [Dexterity]"]
+        },
+        "28050": {
+          "name": "Dexterity",
+          "icon": "Art/2DArt/SkillIcons/passives/plusdexterity.png",
+          "grantedDexterity": 5,
+          "stats": ["+5 to [Dexterity]"]
+        },
+        "35901": {
+          "name": "Dexterity",
+          "icon": "Art/2DArt/SkillIcons/passives/plusdexterity.png",
+          "grantedDexterity": 5,
+          "stats": ["+5 to [Dexterity]"]
+        },
+        "60505": {
+          "name": "Dexterity",
+          "icon": "Art/2DArt/SkillIcons/passives/plusdexterity.png",
+          "grantedDexterity": 5,
+          "stats": ["+5 to [Dexterity]"]
+        },
+        "61312": {
+          "name": "Intelligence",
+          "icon": "Art/2DArt/SkillIcons/passives/plusintelligence.png",
+          "grantedIntelligence": 5,
+          "stats": ["+5 to [Intelligence]"]
+        },
+        "63888": {
+          "name": "Dexterity",
+          "icon": "Art/2DArt/SkillIcons/passives/plusdexterity.png",
+          "grantedDexterity": 5,
+          "stats": ["+5 to [Dexterity]"]
+        }
+      },
+      "jewel_data": {}
+    },
+    "metadata": { "version": "4.3.0c" }
+  }
+}

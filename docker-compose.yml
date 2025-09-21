@@ -13,3 +13,14 @@ services:
     working_dir: /workdir
     volumes:
       - ./:/workdir:ro
+  busted-generate:
+    image: ghcr.io/pathofbuildingcommunity/pathofbuilding-tests:latest
+    environment:
+      HOME: /tmp
+    container_name: pathofbuilding-generate
+    command: sh -c "apk add libxml2-utils && busted --lua=luajit -r generate"
+    security_opt:
+      - no-new-privileges:true
+    working_dir: /workdir
+    volumes:
+      - ./:/workdir:rw
