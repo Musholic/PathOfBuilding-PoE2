@@ -24,7 +24,7 @@ jobs:
               if: ${{ github.event.inputs.releaseNoteUrl == '' }}
               run: >
                 echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token;
-                gh release view $(basename $(gh release create v${{ github.event.inputs.releaseVersion }} --title "Release ${{ github.event.inputs.releaseVersion }}" --draft --generate-notes)) > temp_change.md
+                gh release view $(basename $(gh release create --target master v${{ github.event.inputs.releaseVersion }} --title "Release ${{ github.event.inputs.releaseVersion }}" --draft --generate-notes)) > temp_change.md
             - name: Use existing Release notes
               if: ${{ github.event.inputs.releaseNoteUrl != '' }}
               run: >
