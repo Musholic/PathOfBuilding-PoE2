@@ -1,3 +1,11 @@
+VERSION[0.12.14][2025/09/21]
+
+--- Other changes ---
+- Automate release workflow (Musholic)
+- Release 0.12.13 (github-actions[bot])
+- Update sync-release-to-dev.yml (Musholic)
+
+
 VERSION[0.12.13][2025/09/21]
 
 --- Other changes ---
