@@ -8,7 +8,6 @@ on:
     branches:
       - 'dev'
     paths:
-      - 'manifest.xml'
       - 'changelog.txt' # To detect if this is a release PR
   workflow_dispatch:
 jobs:
