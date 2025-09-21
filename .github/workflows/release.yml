@@ -45,7 +45,7 @@ jobs:
             - name: Create Pull Request
               uses: peter-evans/create-pull-request@v7
               with:
-                  draft: true
+                  draft: always-true
                   title: Release ${{ github.event.inputs.releaseVersion }}
                   branch: release-${{ github.event.inputs.releaseVersion }}
                   body: |
