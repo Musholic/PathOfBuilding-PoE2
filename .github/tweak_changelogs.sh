@@ -2,8 +2,13 @@
 
 RELEASE_VERSION="$1"
 
-# Delete until and including the first line containing "<!-- Release notes generated"
-sed -i '1,/^<!-- Release notes generated/d' temp_change.md
+if grep "<!-- Release notes generated" temp_change.md; then
+    # Delete until and including the first line containing "<!-- Release notes generated"
+    sed -i '1,/^<!-- Release notes generated/d' temp_change.md
+else
+    # Otherwise, delete until and including the first line containing "--"
+    sed -i '/--/,$d' temp_change.md
+fi
 
 # Check if there is more than one non-empty line (the full changelog line) before we continue
 if [ $(grep -c '^[[:space:]]*[^[:space:]]' temp_change.md) -le 1 ]; then
