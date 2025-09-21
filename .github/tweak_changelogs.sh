@@ -7,7 +7,7 @@ if grep "<!-- Release notes generated" temp_change.md; then
     sed -i '1,/^<!-- Release notes generated/d' temp_change.md
 else
     # Otherwise, delete until and including the first line containing "--"
-    sed -i '/--/,$d' temp_change.md
+    sed -i '1,/--/d' temp_change.md
 fi
 
 # Check if there is more than one non-empty line (the full changelog line) before we continue
