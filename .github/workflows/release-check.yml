@@ -25,7 +25,7 @@ jobs:
         run: git diff --exit-code manifest.xml
       - name: Check if the manifest version is correct
         run: |
-          MANIFEST_VERSION=$(grep -o '<Version number="[^"]*"' manifest.xml | sed 's/<Version number="//')
+          MANIFEST_VERSION=$(grep -o '<Version number="[^"]*' manifest.xml | sed 's/<Version number="//')
           BRANCH_VERSION=$(echo ${{ github.head_ref }} | sed 's/release-//')
           if [ "$MANIFEST_VERSION" != "$BRANCH_VERSION" ]; then
             echo "Manifest version ($MANIFEST_VERSION) does not match branch version ($BRANCH_VERSION)"
