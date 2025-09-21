@@ -41,7 +41,7 @@ jobs:
                 .github/tweak_changelogs.sh "v${{ github.event.inputs.releaseVersion }}"
             - name: Update manifest version
               run: |
-                sed -i "s/<Version number=\"([^\"]*)\"/<Version number=\"${{ github.event.inputs.releaseVersion }}\"/g" manifest.xml
+                sed -ri "s/<Version number=\"([^\"]*)\"/<Version number=\"${{ github.event.inputs.releaseVersion }}\"/g" manifest.xml
             - name: Update manifest.xml
               run: python3 update_manifest.py --quiet --in-place
             - name: Create Pull Request
